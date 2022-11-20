@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" data-color-mode="auto" data-light-theme="light" data-dark-theme="dark" >
+<head>
+    <meta charset="utf-8">
+    <link crossorigin="anonymous"  integrity="sha512-sD8zc/Dn1lguLc4FdbeVhD2gfxFCTXGr/y+MpJG3oX1vkAyaFf/7BHPtvv1dAHA0KG4bDEW3Ex1EPrzGTMtN2Q==" rel="stylesheet" href="https://github.githubassets.com/assets/light-b03f3373f0e7.css" />
+    <link crossorigin="anonymous" integrity="sha512-5ITBENg+F5FPizqEsxN2bcmczO46aikzj/TypfSsMeBhfQdvrwp+exPchAMYBksYmjzlK9JZ57G9b1EiEklI5A==" rel="stylesheet" href="https://github.githubassets.com/assets/frameworks-e484c110d83e.css" />
+    <title>Sign in</title>
+</head>
+
+<body class="logged-out env-production page-responsive session-authentication" >
+
+<div class="position-relative js-header-wrapper ">
+    <div class="header header-logged-out width-full pt-5 pb-4">
+        <div class="container clearfix width-full text-center">
+            <svg height="48"  viewbox="0 0 16 16"  width="48"  class="octicon octicon-mark-github">
+                <path  d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path>
+            </svg>
+        </div>
+    </div>
+</div>
+
+<div class="auth-form-header p-0">
+    <h1>肖语测验平台登录</h1>
+</div>
+<div class="auth-form px-3"  >
+    <div class="auth-form-body mt-3">
+        <form id="format" accept-charset="UTF-8">
+            <label>你的邮箱</label>
+            <label>
+            <input type="text" name="email"  autocomplete required class="form-control input-block js-login-field"/>
+            </label>
+           
+            <div class="position-relative">
+                <label>你的密码</label>
+                <label>
+                    <input type="password"  style="display:none" />
+                    <!--浏览器会根据用户已经保存过的密码，在type为password的input中自动填充密码-->
+                    <!--设置一个隐藏的inpu让他填充,即填充上面那个-->
+                    <input type="password" name="password" autocomplete  required class="form-control form-control input-block js-password-field" />
+                </label>
+                <a class="label-link position-absolute top-0 right-0" href="#">忘记了密码?</a>
+            </div>
+        </form>
+        <button  id="submit" type="submit" class="btn btn-primary btn-block js-sign-in-button">上传并提交</button>
+    </div>
+    <p class="login-callout mt-3">新用户?
+        <a href="http://tpc134.github.io/pages/xiaoyu/reg.html">创建一个账号</a>.
+    </p>
+</div>
+</body>
+
+</html>
