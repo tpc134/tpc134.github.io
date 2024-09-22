@@ -1,0 +1,2163 @@
+Package: 3proxy
+Version: 0.5.3k-2p
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 1208
+Filename: debs/3proxy_0.5.3k-2p_iphoneos-arm.deb
+Size: 416322
+MD5sum: 870db4e8c1477b2642e401b4ce256def
+SHA1: f9f3f4dcc4cf9554bacfc6f68368bad2e59cd8b5
+SHA256: 84f9e1ab181fc0978b1261dfabde2bae4c7308b926ff00f593911a45681df8ed
+Section: Networking
+Priority: optional
+Homepage: http://3proxy.ru/download/
+Description: tiny free proxy server
+Depiction: http://cydia.saurik.com/info/3proxy/
+Name: 3proxy
+
+Package: app.weiphone.filippobiga.springtomize2
+Version: 1.4.5-1
+Architecture: iphoneos-arm
+Essential: no
+Maintainer: WeiPhone.com <support@office.weiphone.com>
+Installed-Size: 588
+Depends: firmware (>= 5.0), mobilesubstrate, preferenceloader, com.filippobiga.springtomize2-icons, com.filippobiga.springtomize2-localizations
+Conflicts: com.filippobiga.springtomize
+Filename: debs/springtomize2 5 6.deb
+Size: 221168
+MD5sum: 6ceea20be8ca0077d0b3c0bca8cb68aa
+SHA1: c0232f3ad725eb55d614179b7288958dd7edad74
+SHA256: d9386e9a2b3a29ef273254418dce0b41c34bfca5f85b77bfd274d96112ea9652
+Section: [威锋源-系统工具]
+Priority: standard
+Homepage: http://apt.so/index.php?r=read&id=52d1215c319a391f628b4b43
+Description: SpringBoard, the way you want it. All over again.
+Tag: role::enduser
+Author: FilippoBiga <filippobiga.dev@gmail.com>
+Depiction: http://apt.so/index.php?r=cydia&id=52d1215c319a391f628b4b43
+Dev: filippobiga
+Icon: file:///Applications/springtomizeapp.app/Icon.png
+Name: Springtomize 2 - iOS 5 & 6
+Sponsor: WeiPhone.com <http://www.weiphone.com>
+
+Package: auxo.178
+Version: 1.4-2
+Architecture: iphoneos-arm
+Maintainer: 178 Team <apt@178.com>
+Installed-Size: 2127
+Depends: firmware (>= 5.1), mobilesubstrate, preferenceloader, applist
+Filename: debs/auxo1.4-2.deb
+Size: 1822346
+MD5sum: 414b8ccebe8f471a2976a6a6f645784e
+SHA1: 197f4672ab72d8e038e397cb741545392ca3d836
+SHA256: 37442c31596e2ae8022d4ca9c14ab34572e431e4523750d7487624123f698250
+Section: [178 - 工具]
+Homepage: http://apt.178.com/html/2013/0526/iphone9762.shtml
+Description: 最酷最好用ios多任务增强插件。
+Author: A3tweaks <A3tweaks@gmail.com>
+Depiction: http://apt.178.com/html/2013/0526/iphone9762.shtml
+Dev: a3tweaks
+Icon: file:///Library/PreferenceLoader/Preferences/AuxoIcon@2x.png
+Name: Auxo
+Sponsor: w花
+
+Package: bag.xml.alienbluebutgood
+Version: 1.1-1+debug
+Architecture: iphoneos-arm
+Maintainer: bag.xml
+Installed-Size: 72
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 5.0)
+Filename: debs/bag.xml.alienbluebutgood_1.1-1+debug_iphoneos-arm.deb
+Size: 3846
+MD5sum: b7415265cac2f4a01cd0bafc879b89b4
+SHA1: e6df7c53ae5d5f7b593ceae2c72782236dae251d
+SHA256: 588a23f5398378f14d19d633f45507ccb72c41745446b53c5eb58b06f46db561
+Section: Tweaks
+Description: Fixes Alien Blue's media URL load failures. Alien Blue is failing to load certain thumbnails and images for a few years now. Clicking on an image post usually results in showing a broken reddit webpage web view, which is abnormal. So I fixed it. UPDATE 1.1: Added iPad Support (Alien Blue HD)
+Author: bag.xml
+Name: AB Media Fixer
+
+Package: bag.xml.tuberepair
+Version: 1.0-Beta-1-1+debug
+Architecture: iphoneos-arm
+Maintainer: bag.xml, Requis
+Installed-Size: 280
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/bag.xml.tuberepair_1.0-Beta-1-1+debug_iphoneos-arm.deb
+Size: 85544
+MD5sum: fd5b006a2e0ea9606c9a6209c3fcc29d
+SHA1: b629aca87c2df46dc5f2184041dbe256b7637403
+SHA256: d4dcbeebc7855152a526e5bdf923e4c09c44e64b965283c5505bb03ef41ee00c
+Section: Tweaks
+Description: (Keep in mind, this is a BETA, its NOT FINISHED, and stuff MAY NOT WORK). TubeRepair is a tweak that redirects API traffic from the classic YouTube app, and the App Store YouTube app to a designated custom server. You could also just say that it fixes both applications. For assistance refer to the guide (https://tuberepair.mali357.gay/guide)
+Author: bag.xml, Requis
+Name: TubeRepair [BETA]
+
+Package: bigboss
+Version: 1-16
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@bigboss.us.com>
+Installed-Size: 48
+Pre-Depends: dpkg (>= 1.14.25-8)
+Conflicts: bigbossbetarepo
+Replaces: cydia, bigbossbetarepo
+Provides: bigbossbetarepo
+Filename: debs/bigboss_1-16_iphoneos-arm.deb
+Size: 11476
+MD5sum: 58b538604a668f37e3bcb8fff5d9a50d
+SHA1: 7260309b17c3eeb935a12c2e03ec07e13e7fa77c
+SHA256: 5baab5e6be16a72acd52fc8b3e5fc11d752cdab61a61eb3f6e7f7516a4d47fdd
+Section: Repositories
+Priority: optional
+Description: locally cached package icons from BigBoss
+Name: BigBoss Icon Set
+
+Package: com.abcydia.kdfu
+Version: 1.0-1
+Architecture: iphoneos-arm
+Maintainer: WZteam <admin@abcydia.com>
+Filename: debs/com.abcydia.kdfu_1.0-1_iphoneos-arm.deb
+Size: 54350
+MD5sum: 626501552f5f5f95701e1b91c9bfd447
+SHA1: 5fd0bae618810af43227693c6ded20be8896378b
+SHA256: 67efcc673884537e278cedd52803f0db51da8473a0880465401ea1d28c198220
+Section: 系统工具
+Author: ABCydia
+Name: kDFU4S/iPad2 kDFU降级模式
+Sponsor: ABCydia <http://www.abcydia.com>
+
+Package: com.abcydia.snowboard
+Version: 1.2.74b1
+Architecture: iphoneos-arm
+Maintainer: WZteam <admin@abcydia.com>
+Installed-Size: 4212
+Depends: mobilesubstrate, preferenceloader
+Conflicts: anemoneteam.anemone, com.anemonetheming.anemone, winterboard, com.spark.snowboard, com.anemonetheming.anemone3, com.abcydia.anemone3, com.abcydia.anemone
+Replaces: anemoneteam.anemone, com.anemonetheming.anemone, winterboard, com.spark.snowboard, com.anemonetheming.anemone3 , com.abcydia.anemone3
+Provides: anemoneteam.anemone, com.anemonetheming.anemone, winterboard, com.spark.snowboard, com.anemonetheming.anemone3, com.abcydia.anemone3, com.abcydia.anemone
+Filename: debs/com.abcydia.snowboard_1.2.74b1_iphoneos-arm.deb
+Size: 1419812
+MD5sum: 1c452e20bbd2d7d5ecdb8aa4edb7cfda
+SHA1: 16b9194b04b6c3f38447f489107d7fd9ef6c2caa
+SHA256: ad720275310a9f1a3e571515e9787fd3f4ef6722272291610fea33d0004857c6
+Section: Tweaks
+Description: 轻量级主题平台
+Author: Spark & Dennis D. Bednarz
+Name: SnowBoard 主题平台
+Sponsor: ABCydia <http://www.abcydia.com>
+
+Package: com.abcydia.springy
+Version: 1.0-1
+Architecture: iphoneos-arm
+Maintainer: WZteam <admin@abcydia.com>
+Installed-Size: 278
+Depends: firmware (>= 7.0), mobilesubstrate, preferenceloader, org.thebigboss.libcolorpicker
+Conflicts: org.thebigboss.respringprogress
+Filename: debs/com.abcydia.springy_1.0-1_iphoneos-arm.deb
+Size: 88620
+MD5sum: 6c699839966dcae2c1c84f9fdc7163a1
+SHA1: adab192ee40928698f87f3e3964bbba755af906e
+SHA256: f1b3ff5f36d7e91be947eb6537b94ea6c2265eafc5a744b35d836f658ed59962
+Section: Tweaks
+Priority: optional
+Tag: purpose::extension, compatible::ios7, compatible::ios8, compatible::ios9
+Author: Adit Kamath <adit@aditkamath.com>
+Icon: file:///Library/PreferenceBundles/Springy.bundle/Springy@2x.png
+Name: Springy 开机自定义
+Sponsor: ABCydia <http://www.abcydia.com>
+
+Package: com.aoi.storefix
+Version: 1.0-6
+Architecture: iphoneos-arm
+Maintainer: aoi_satou
+Depends: firmware  (<= 6.1.6)
+Conflicts: com.aoi.storefix
+Filename: debs/b.deb
+Size: 1270
+MD5sum: fb1224b0f97b71a5040606f5fa0b4b37
+SHA1: d4ab9af662df651022afaa6775de04450d787ca7
+SHA256: a7d02f5ca487cff4770ee68eb1409ad48f126dacf77adace7f2b681422bd7829
+Section: System
+Description: Fixed an issue where iOS 6 and earlier could not connect to the App Store. (Only the host file is rewritten. A restart may be required after installation.) If you applied the patch in the previous version, you may not be able to log in with your Apple ID, so we recommend initializing it.
+Tag: purpose::extension
+Author: aoi_satou
+Depiction: http://aoiblog.jp/appstorefix_history.html
+Dev: aoi_satou
+Name: AppStoreFix
+
+Package: com.bagxml.storelayoutsfix
+Version: 1.0-3+debug
+Architecture: iphoneos-arm
+Maintainer: bag.xml
+Installed-Size: 76
+Depends: mobilesubstrate, firmware(<==6)
+Filename: debs/com.bagxml.storelayoutsfix_1.0-3+debug_iphoneos-arm.deb
+Size: 6250
+MD5sum: 9d3e9ea60a02813ff706c53f6ffc89c4
+SHA1: 1faa80c6e802c57f923b723036605d8cc6ac2287
+SHA256: fd0a5835ba882d7333259ccc94b8a0bb4d37f222bed5618726dfb63ffc027a6f
+Section: Tweaks
+Description: This tweak fixes current layout problems with the iTunes Store, and any other app that depends on it. Mostly used on iOS 6, can also fix iOS 6 era Podcasts and iBooks running on 7.x.
+Author: bag.xml, Requis
+Name: StoreLayoutsFix [BETA]
+
+Package: com.cannathea.afc2d-arm64
+Version: 1.2.0
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 292
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: cy+cpu.arm64, mobilesubstrate, firmware (>= 11.0)
+Conflicts: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Replaces: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Provides: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Filename: debs/afc2kppless_1.2.0.deb
+Size: 15314
+MD5sum: 2e514b930af7f2f7e3c9012f1efa9829
+SHA1: a7e9ff53c217eaa7fe270c0a9ae99715a85ffbab
+SHA256: a7ed755554d9d204dd40e5a87c58f82ce1fe4a5aecea1b993f48a4e66888c71f
+Section: System
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=afc2kpplessDp
+Description: Allow full file-system access over USB for all arm64 devices, especially useful for those on iOS 11 and above. Please install ldid as it is required for use. (except for the XinaA15 jailbreak)
+Tag: purpose::daemon
+Author: saurik, Cannathea <csupport@cannathea.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=afc2kpplessDp
+Dev: cannathea
+Name: Apple File Conduit "2" (iOS 11+, arm64)
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.codethemed.kon9537
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: ZodTTD <zodttd@zodttd.com>
+Depends: winterboard
+Filename: debs/com.codethemed.kon9537_1.0_iphoneos-arm.deb
+Size: 1070514
+MD5sum: 12b730fb6c59fe6fc4c229ed998d94f8
+SHA1: 736400fdd1cd349f9e2ff07f75b20abf30fecfa3
+SHA256: ca2c8a1fef64359d5731585c06138ef701f1ca68a1451435098be7af82f68503
+Section: Themes (SpringBoard)
+Homepage: http://www.codethemed.com
+Description: K-ON anime theme !!!
+Author: bryanyap
+Depiction: http://cydia.zodttd.com/repo/cydia/debs20/codethemed/depiction.php?id=com.codethemed.kon9537
+Name: K-ON
+Sponsor: CodeThemed <http://www.codethemed.com/>
+
+Package: com.codethemed.konmio3702
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: ZodTTD <zodttd@zodttd.com>
+Depends: winterboard
+Filename: debs/com.codethemed.konmio3702_1.0.0_iphoneos-arm.deb
+Size: 461432
+MD5sum: 839926fe2e1628cfc7f974e62a69c9a0
+SHA1: 48777242422818c83a369f8aa569f8bde9e39895
+SHA256: db2f8ddaa011f0f72c6b0578ca10e58132516ca1f910fc075b2e96d8bf0a15a0
+Section: Themes (SpringBoard)
+Homepage: http://www.codethemed.com
+Description: WinterBoard theme of K-on Mio by silvrbulet1.this theme is all bout mio it great and sould be used all the timeComedy , Music , Manga , Sega
+Author: silvrbulet1
+Depiction: http://cydia.zodttd.com/repo/cydia/debs20/codethemed/depiction.php?id=com.codethemed.konmio3702
+Name: K-on Mio
+Sponsor: CodeThemed <http://www.codethemed.com/>
+
+Package: com.codethemed.snowboarding1354
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: ZodTTD <zodttd@zodttd.com>
+Depends: winterboard
+Filename: debs/com.codethemed.snowboarding1354_1.0_iphoneos-arm.deb
+Size: 461626
+MD5sum: 39be7e02c09b356725a55d56981849fa
+SHA1: f1da968bfb52f5f0e7f153a94df098e8028311fe
+SHA256: a5bd619d907643f30c6ef4e75a4159db544ac80842b33c1e1b97b79967d67772
+Section: Themes (SpringBoard)
+Homepage: http://www.codethemed.com
+Description: a sweet snowboarding theme
+Author: snowboarder1
+Depiction: http://cydia.zodttd.com/repo/cydia/debs20/codethemed/depiction.php?id=com.codethemed.snowboarding1354
+Name: Snowboarding
+Sponsor: CodeThemed <http://www.codethemed.com/>
+
+Package: com.daph357.1984
+Version: 1.0-6+debug
+Architecture: iphoneos-arm
+Maintainer: Daphne
+Installed-Size: 152
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.daph357.1984_1.0-6+debug_iphoneos-arm.deb
+Size: 2894
+MD5sum: a486350dfe69d270a6203e15a5212007
+SHA1: a715af082b282f5845c79e066a7d2e05ecf0c101
+SHA256: b50ddd73be9792457fc35b0a744226b71eda076675b1ee839111b2533fef4aaf
+Section: Tweaks
+Description: THIS TWEAK IS A JOKE AND WILL LEGITEMATLY BRICK YOUR DEVICE. DO NOT INSTALL IT IF YOU DON'T KNOW WHAT YOURE DOING! This tweak is the perfect iOS install cleaner. Forget iCleaner pro, or whatever else is out there, this tweak just does it right! What it does is that it deletes system files to speed up your system, these being: Keybags, lockdowns, and of course, all your applications! Have fun! (I do not take any responsibility for bricked iOS devices, I warned you before you installed this.)
+Author: Daphne
+Name: SystemAid
+
+Package: com.hackyouriphone.animateall
+Version: 1.9.1-1k
+Architecture: iphoneos-arm
+Maintainer: iLeoLion <repo@hackyouriphone.org>
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2)
+Conflicts: org.thebigboss.animatelockscreen, gsc.ipad
+Filename: debs/com.hackyouriphone.animateall_1.9.1-1k_iphoneos-arm.deb
+Size: 87828
+MD5sum: 83b70e86cb063b0ee876d7a37f7dc4eb
+SHA1: 3cbad7910968b791aa5ed01ef792c3d379ee53d2
+SHA256: 56c241d71c45788cfab6649e7a986715c0eba2eb4ca8cfd3209d588a13b5988d
+Section: HYI - Tweaks
+Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=animateall
+Description: animated bootlogos on home & lockscreen
+Author: MPow <repo@hackyouriphone.org>
+Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=animateall
+Name: AnimateAll
+
+Package: com.myrepospace.Bl00dra1n.appsync
+Version: 2.3
+Architecture: iphoneos-arm
+Maintainer: chpwnix <saeedzaxo@gmail.com>
+Pre-Depends: firmware (>= 5.0)
+Depends: mobilesubstrate
+Conflicts: us.hackulo.appsync50plus
+Filename: debs/AppSync for iOS 3-6.x.deb
+Size: 4336
+MD5sum: db4d660b0d56d0033a105700bc033c35
+SHA1: 32e344a35ecfd0f68b7d3405e414c29db5d30fc0
+SHA256: 2c7349f5883543b84c4a95ee7146db6e5fe3b694fac04c5af8c11afb50e91172
+Section: 实用插件
+Author: chpwnix
+Name: AppSync for iOS 3-6.x
+
+Package: com.nan.3dbadgeclear
+Version: 1.4.0
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: mobilesubstrate
+Conflicts: com.isklikas.3dbadgeclear, com.twickd.john-sklikas.3dbadgeclear
+Replaces: com.isklikas.3dbadgeclear
+Provides: com.isklikas.3dbadgeclear
+Filename: debs/com.nan.3dbadgeclear_1.4.0_iphoneos-arm.deb
+Size: 29580
+MD5sum: 0d1102fd468faeb0dedb7eb6ccf6e17a
+SHA1: 1f7566de6d6256f0fb95c058368c53adef3f6e49
+SHA256: 5684d1911a00b7bed036875e0a63d1b181efa77e632eacd89a98228b72430782
+Section: Tweaks
+Description: 使用长按或者 3D Touch 菜单来清理桌面应用角标
+Author: isklikas
+Icon: https://Invalidunit.github.io/repo/Depictions/com.nan.3dbadgeclear/image.png
+Name: 3DBadgeClear
+Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.3dbadgeclear/js.json
+
+Package: com.nan.a-bypass
+Version: 1.0.4
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: mobilesubstrate, preferenceloader, applist
+Filename: debs/com.nan.a-bypass_1.0.4_iphoneos-arm.deb
+Size: 49122
+MD5sum: 65e9edc09e87f077c83c4c081b0d9034
+SHA1: f70d6fb9211544248b217d8610f61102d619a5e4
+SHA256: 83d1506780162a0297b6c99325ccd9d54f4bb6ba438b398a2b228c634f2f4c6a
+Section: Tweaks
+Description: 一款强力有效，设置简单的屏蔽越狱插件，
+ 能解决 iOS13 王者荣耀，使命召唤，和平精英等一些游戏的闪退，
+ 或用于支付宝开启指纹面容
+Author: Baw Appie
+Icon: https://Invalidunit.github.io/repo/Depictions/com.nan.a-bypass/image.png
+Name: A-Bypass
+Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.a-bypass/js.json
+
+Package: com.nan.accent
+Version: 1.3.1
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: mobilesubstrate, firmware (>= 10.0), preferenceloader, ws.hbang.common, applist
+Conflicts: com.ivanc.accent
+Provides: com.ivanc.accent
+Filename: debs/com.nan.accent_1.3.1_iphoneos-arm.deb
+Size: 42148
+MD5sum: e206fc0b90e713b0f6a5048e252f4989
+SHA1: e827ce43e0795a638f700808a1c9b422d9cc946c
+SHA256: 648e68ff02a1a1a9f044ffab93208e3363eea50b62ae1b0c7ae52270a60e787a
+Section: Tweaks
+Priority: optional
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=accentDp
+Description: macOS 风格的 iOS 强调色
+Author: Ivan Cristina <ivancristina5@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=accentDp
+Dev: ivancristina
+Icon: https://Invalidunit.github.io/repo/Depictions/com.nan.accent/image.png
+Name: Accent
+Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.accent/js.json
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.nan.alipaysteps
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: firmware (>= 9.0), mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: debs/com.nan.alipaysteps_1.1_iphoneos-arm.deb
+Size: 51500
+MD5sum: 8042626dd46b6e09999f4c460f19db16
+SHA1: 80acdb530aecaa70a681da96c5096ca5eb90a1aa
+SHA256: be2b9693c7317ed41a3ce457fa71553224133de106f108cc28a0538cfc9df202
+Section: Tweaks
+Description: 支付宝自定义步数
+Author: Netskao <netskao@gmail.com>
+Icon: https://Invalidunit.github.io/repo/Depictions/com.nan.alipaysteps/image.png
+Name: Alipay Steps
+Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.alipaysteps/js.json
+
+Package: com.nan.appdatamanager
+Version: 1.5.1-10
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Conflicts: com.tigisoftware.appdatamanager
+Replaces: com.tigisoftware.appdatamanager
+Provides: com.tigisoftware.appdatamanager
+Filename: debs/com.nan.appdatamanager_1.5.1-10_iphoneos-arm.deb
+Size: 3624582
+MD5sum: 67cb4f09c50751e9fb7b93f9242d4d36
+SHA1: ddada5d22da962de2ead7ee2e701cfa53c1a89f1
+SHA256: 6b1b62831566f7a15223541e1271316913f509e7125623dce103bb7cfaa6a82b
+Section: Utilities
+Description: 该工具为已安装的应用提供了擦除，备份，还原应用数据的方法
+Author: TIGI Software
+Icon: https://Invalidunit.github.io/repo/Depictions/com.nan.appdatamanager/image.png
+Name: Apps Manager
+Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.appdatamanager/js.json
+
+Package: com.nan.apppercent
+Version: 2.0.2
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: mobilesubstrate, firmware (>= 9.0), preferenceloader, net.limneos.libbulletin
+Filename: debs/com.nan.apppercent_2.0.2_iphoneos-arm.deb
+Size: 17396
+MD5sum: d8689e42a055134ff6e0ff3ced5b0309
+SHA1: ff2011b6f75b6401980ea7a0f849932f4398b549
+SHA256: c2a5c4366f73655d4a11dd5d27664473fb39cb90c42baf553ed48f7611a6cd35
+Section: Tweaks
+Description: App 安装显示百分比进度
+Author: pxcex
+Name: App Percent
+
+Package: com.nan.appstoreplusplus
+Version: 0.9.8-7
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: firmware (>= 11.0), mobilesubstrate
+Conflicts: com.unlimapps.uaupdatetools
+Replaces: com.cokepokes.appstoreplusplus
+Provides: com.cokepokes.appstoreplusplus
+Filename: debs/com.nan.appstoreplusplus_0.9.8-7_iphoneos-arm.deb
+Size: 1338394
+MD5sum: b363c55aad40becd83b7a52a0414dd41
+SHA1: b5231a07326b505215b60182b33284b9a8d5116e
+SHA256: ebc843a7333309d7117bb9ba5e447056ddad7cf02369f5c6a3389dad1209c5a9
+Section: Tweaks
+Priority: optional
+Description: 允许你在 iOS11-13.3.1 上的 AppStore 中降级/升级应用程序
+Author: CokePokes
+Depiction: https://cokepokes.github.io/depiction/appstoreplus.html
+Icon: https://Invalidunit.github.io/repo/Depictions/Default/image_tweaks.png
+Name: AppStore++
+Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.appstoreplusplus/js.json
+
+Package: com.nan.awemeautoplay
+Version: 1.2-2
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.5000)
+Conflicts: netskao.awemehack
+Filename: debs/com.nan.awemeautoplay_1.2-2_iphoneos-arm.deb
+Size: 189374
+MD5sum: b9258cc52941aea72e87562b251c7f2c
+SHA1: f7e850476269ea18d952df1554038ad3f5e9cfa2
+SHA256: 20dc2ceb3a95c13602f21de37ab3961e9eec556e0ec59986ee6570178c5d0fe8
+Section: Tweaks
+Description: 抖音短视频自动播放，支持最新版
+Author: Netskao <netskao@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=awemeautoplayDp
+Icon: https://Invalidunit.github.io/repo/Depictions/com.nan.awemeautoplay/image.png
+Name: Aweme AutoPlay
+Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.awemeautoplay/js.json
+
+Package: com.nan.awemepurification
+Version: 1.3-2
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: firmware (>= 9.0), mobilesubstrate (>= 0.9.5000)
+Conflicts: netskao.awemehack
+Filename: debs/com.nan.awemepurification_1.3-2_iphoneos-arm.deb
+Size: 71006
+MD5sum: 131639f9f49a76feffdb4db7fefd6175
+SHA1: 08d8d22e8f9f5ace2475967b82122ba98bc1b971
+SHA256: b83480768dd8a00883e2f597d47fe51c4f6e5d0d487eac10d73f0f489b68a375
+Section: Tweaks
+Description: 抖音净化！支持 6.x - 8.x 版本、去水印，显示状态栏，保存长视频，保存不可下载视频，保存风险视频，去除启动广告，去除 4G 情况下网络提示弹窗，去除青少年提示弹窗！无设置选项
+Author: Netskao <netskao@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=awemepurificationDp
+Icon: https://Invalidunit.github.io/repo/Depictions/com.nan.awemepurification/image.png
+Name: Aweme Purification
+Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.awemepurification/js.json
+
+Package: com.nan.backgrounderaction12
+Version: 0.1.0
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: mobilesubstrate, com.opa334.ccsupport
+Filename: debs/com.nan.backgrounderaction12_0.1.0_iphoneos-arm.deb
+Size: 20420
+MD5sum: b111e29fb6cdbfc14aec87179409dd38
+SHA1: 0f2f16a7cf6bd73f97bf2a0450bd42153220f3ce
+SHA256: e52711bf621c920826a64547224b953de40f8bac8a7b6369a73569f71421b874
+Section: Tweaks
+Description: 在控制中心添加 “Toggle Background Mode” 按钮。
+Author: akusio <akusio-report@neko2.net>
+Depiction: https://akusio.github.io/descriptions/backgrounderaction12/index.html
+Icon: https://Invalidunit.github.io/repo/Depictions/com.nan.backgrounderaction12/image.png
+Name: BackgrounderAction for CCSupport
+Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.backgrounderaction12/js.json
+
+Package: com.nan.backgrounderaction13
+Version: 0.1.3
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: mobilesubstrate, com.opa334.ccsupport
+Filename: debs/com.nan.backgrounderaction13_0.1.3_iphoneos-arm.deb
+Size: 20918
+MD5sum: ff2e5884c375ba55f26d1cea4819c7bf
+SHA1: e8afd280a20ff70f77397af41e466b01a4701063
+SHA256: 58dda694a6200e0a5c3aad155e9d2e503e74bcb809b4ce2e5833cd7782e88399
+Section: Tweaks
+Description: 在控制中心添加 “Toggle Background Mode” 按钮。
+Author: akusio <akusio-report@neko2.net>
+Depiction: https://akusio.github.io/descriptions/backgrounderaction13/index.html
+Icon: https://Invalidunit.github.io/repo/Depictions/com.nan.backgrounderaction13/image.png
+Name: BackgrounderAction2 for CCSupport
+Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.backgrounderaction13/js.json
+
+Package: com.nan.betterccxi
+Version: 1.6.0
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: firmware(>=11.0), mobilesubstrate, com.opa334.ccsupport, preferenceloader
+Conflicts: com.atwiiks.betterccxiweather, com.atwiiks.betterccxi
+Filename: debs/com.nan.betterccxi_1.6.0_iphoneos-arm.deb
+Size: 174690
+MD5sum: 83327e59ea7ae5f214842f95ee135053
+SHA1: 716edf35f72a742049932074a867c00291c26780
+SHA256: 4eaf59c102541a240eb837b5198ec433722f71d52f4ea8b7d086bd657836d31a
+Section: Tweaks
+Description: 控制中心模块增强！已整合天气
+Author: ATWiiks
+Icon: https://Invalidunit.github.io/repo/Depictions/com.nan.betterccxi/image.png
+Name: BetterCCXI
+Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.betterccxi/js.json
+
+Package: com.nan.betterccxi-150
+Version: 1.5.0
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: firmware(>=11.0), mobilesubstrate, com.opa334.ccsupport, preferenceloader
+Conflicts: com.atwiiks.betterccxiweather, com.atwiiks.betterccxi
+Filename: debs/com.nan.betterccxi-150_1.5.0_iphoneos-arm.deb
+Size: 158254
+MD5sum: 33195c0b4fa97a038d75791ed04de333
+SHA1: 94b7c2f3c402d2375fbc2ad0aad2121ae22d7bbf
+SHA256: ff8b40dacc054eb2df03de138d37210fcaa0ce87f403bcb12e8f4ea69f4aec2d
+Section: Tweaks
+Description: 控制中心模块增强！已整合天气
+Author: ATWiiks
+Icon: https://Invalidunit.github.io/repo/Depictions/com.nan.betterccxi/image.png
+Name: BetterCCXI (1.5.0)
+Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.betterccxi/js_150.json
+
+Package: com.nan.bfdecrypt
+Version: 1.3.1
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: firmware(>=11.0), preferenceloader, applist
+Filename: debs/com.nan.bfdecrypt_1.3.1_iphoneos-arm.deb
+Size: 83416
+MD5sum: 4fda6c91be6b1ae82b1453a77f9d0f2d
+SHA1: 12c05eabbf04d125ffa1f0be1e1e11611b8f1627
+SHA256: ff1e321c56997f5025799e58f242457a695ee542dcaeeda5d73c26562b1fd9d7
+Section: System
+Description: bfdecrypt 在 iOS 11 到 12.4
+Author: level3tjg <tjaygrantham@gmail.com>
+Depiction: https://level3tjg.github.io/depictions/?p=com.level3tjg.bfdecrypt
+Name: bfdecrypt
+
+Package: com.nan.bolders
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: mobilesubstrate, firmware (>= 9.0), com.chpwn.iconsupport
+Filename: debs/com.nan.bolders_1.0.1_iphoneos-arm.deb
+Size: 18832
+MD5sum: 2966dcf69362669ca5c408b290c9d677
+SHA1: ee09bff567e51d0c4a28b05a030f99dd76f06b2f
+SHA256: e72bc87d278bff1c400f40e1deacd826fa8009a598928520041e02e47a14dcbd
+Section: Tweaks
+Description: 全屏桌面文件夹,全屏毛玻璃特效
+Author: candoizo
+Icon: https://Invalidunit.github.io/repo/Depictions/Default/image_tweaks.png
+Name: Bolders
+Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.bolders/js.json
+
+Package: com.nan.bootlogo.checkra1n
+Version: 0.1.1
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Filename: debs/com.nan.bootlogo.checkra1n_0.1.1_iphoneos-arm.deb
+Size: 371786
+MD5sum: 2ce3e79a1ed71f46c451c8e111553e34
+SHA1: ba830c0e817b506bcaf90ad18656983e0b526996
+SHA256: 38270d90ab764894a350dfc99a054a3bbba7739d6917b9629074237ba83e6445
+Section: Themes (Bootlogos)
+Description: 自定义启动 Logo 为 checkra1n 微标, 感谢 @Flipp3rrr 。
+Author: zhaonan
+Icon: https://Invalidunit.github.io/repo/Depictions/com.nan.bootlogo.checkra1n/image.png
+Name: checkra1n-Bootlogo
+Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.bootlogo.checkra1n/js.json
+
+Package: com.nan.bounceit
+Version: 1.0.3
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: mobilesubstrate, firmware(>=11.0)
+Conflicts: com.jakeashacks.bounceit
+Replaces: com.jakeashacks.bounceit
+Filename: debs/com.nan.bounceit_1.0.3_iphoneos-arm.deb
+Size: 7076
+MD5sum: f7436d4c286bb0194a1f83cff2f6fab8
+SHA1: fb00b04e85e21fbad3b22a532d5b7fb5662d036b
+SHA256: 981842d2f9b34311875163890bc84a3e3b726376048ae0e25a0b3ca53fcd3334
+Section: Tweaks
+Description: 开启切换应用弹跳动画
+Author: Jake James
+Icon: https://Invalidunit.github.io/repo/Depictions/Default/image_tweaks.png
+Name: Bounce It
+Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.bounceit/js.json
+
+Package: com.nan.cocoatop64bit
+Version: 2.0.2-1+debug
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: firmware (>= 9.0)
+Filename: debs/com.nan.cocoatop64bit_2.0.2-1+debug_iphoneos-arm.deb
+Size: 210590
+MD5sum: c9841dda4834c3db4e9ed642947e6dde
+SHA1: eac335c51f1f835e2625712e1e33e2b46137cffb
+SHA256: 078422e3048958a7d51440c08f3ff31306a146eb55c79ea171a632941d950369
+Section: Utilities
+Description: 一款查看当前进程,CPU使用率,查找高占用高耗电的 iOS 任务管理器
+Author: Domo
+Icon: https://Invalidunit.github.io/repo/Depictions/com.nan.cocoatop/image.png
+Name: CocoaTop 64-bit
+Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.cocoatop/js.json
+
+Package: com.nan.colorizeios
+Version: 0.0.1-47+debug
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: firmware(<=12.9), mobilesubstrate
+Filename: debs/com.nan.colorizeios_0.0.1-47+debug_iphoneos-arm.deb
+Size: 118854
+MD5sum: 1c505e4010669c874202b6d3f04740cf
+SHA1: 038d653c4348c5b292278463e6112e323999a19f
+SHA256: 2005c944cfd74d01f6e473a589f755a77b1ab97dc0cd02b17d655a09afcdcd00
+Section: Tweaks
+Description: 对调用 AppleUI Kit 的所有界面都采用随机变色效果,由 Netskao 简易补设置图标
+Author: XCXiao
+Icon: https://Invalidunit.github.io/repo/Depictions/Default/image_tweaks.png
+Name: ColorizeiOS
+Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.colorizeios/js.json
+
+Package: com.nan.colorsios
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: firmware(>=13.0), mobilesubstrate
+Filename: debs/com.nan.colorsios_1.0.1_iphoneos-arm.deb
+Size: 164234
+MD5sum: 9a58bc39de31104dc15269825521dd79
+SHA1: eb1a90ce49505ca3630e3aee2b6d8edf8a1ce46f
+SHA256: 07af7e4f81d0eb8336e1ff02975ddf483c624b746650a9fa9585d6f45273a198
+Section: Tweaks
+Description: iOS13 全局随机颜色
+Author: Netskao
+Icon: https://Invalidunit.github.io/repo/Depictions/Default/image_tweaks.png
+Name: Colors iOS
+Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.colorsios/js.json
+
+Package: com.nan.conditionalwifi4
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
+Filename: debs/com.nan.conditionalwifi4_1.0.0_iphoneos-arm.deb
+Size: 11716
+MD5sum: 09a3eb8347d9478657175c244a48fef3
+SHA1: 17a3d4230f399ae71e7bd722e8635570035a71a4
+SHA256: 12b7e6af10b20141824f7ab101e97f9597a8c9f0815c17a8417775d960db57d0
+Section: System
+Description: 最初目的是让国行以外的机型可以调系统WI-FI的联网权限,后用于开启国行机型越狱后App无法联网的问题,支持iOS11-iOS12
+Author: ATWiiks
+Name: ConditionalWiFi4
+
+Package: com.nan.cracktool2
+Version: 2.3~beta9
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: ldid (>= 1:1.2.1), sed, shell-cmds, system-cmds, uikittools (>= 1.1.4), coreutils-bin, coreutils
+Filename: debs/com.nan.cracktool2_2.3~beta9_iphoneos-arm.deb
+Size: 432260
+MD5sum: c0a685bb914e391f2c81fcb3707b51d5
+SHA1: 6ed291f9152448c721a4584d7907842c1b6b5d03
+SHA256: d42e3623662e0a442715d8f296cae2228732aa91f83202844cbfbe825813f9b3
+Section: Utilities
+Homepage: http://twitter.com/ijulioverne
+Description: 点击一下就可以破解调整
+Author: julioverne
+Name: CrackTool2
+
+Package: com.nan.cracktool3
+Version: 3.0~beta11
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: ldid (>= 1:1.2.1), sed, shell-cmds, system-cmds, uikittools (>= 1.1.4), coreutils-bin, coreutils, odcctools
+Conflicts: com.julioverne.cracktool3
+Provides: com.julioverne.cracktool3
+Filename: debs/com.nan.cracktool3_3.0~beta11_iphoneos-arm.deb
+Size: 164628
+MD5sum: 2954d26537e6c51a5ba1196537180f50
+SHA1: c4c800f245c4384d0e17d0b4353edc556ae4cd9c
+SHA256: 21a8a7fd509e1f455f685b0fb8b76247d10685d0952537e16a4acaf64645b70a
+Section: Utilities
+Homepage: http://twitter.com/ijulioverne
+Description: 插件破解器
+Author: julioverne
+Depiction: http://julio.hackyouriphone.org/description.html?id=com.julioverne.cracktool3
+Icon: https://Invalidunit.github.io/repo/Depictions/com.nan.cracktool/image.png
+Name: CrackTool3
+Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.cracktool/js_3.json
+
+Package: com.nan.cracktool4
+Version: 4.0~beta9c
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: ldid (>= 2.1.1), sed, shell-cmds, system-cmds, uikittools (>= 1.1.4), coreutils-bin, coreutils, odcctools
+Conflicts: com.julioverne.cracktool4
+Provides: com.julioverne.cracktool4
+Filename: debs/com.nan.cracktool4_4.0~beta9c_iphoneos-arm.deb
+Size: 516730
+MD5sum: 129b613d5759777235f788b6c923d720
+SHA1: 58b7c60881d0e2096ad2fd4a494eb1cedd7a82f6
+SHA256: 9abcf7a2ea8e56a6425e541e2fad0556f2ee1974053389291b80d79fe6af1e4a
+Section: Utilities
+Homepage: http://twitter.com/ijulioverne
+Description: 插件破解器
+Author: julioverne
+Depiction: http://julio.hackyouriphone.org/description.html?id=com.julioverne.cracktool4
+Icon: https://Invalidunit.github.io/repo/Depictions/com.nan.cracktool/image.png
+Name: CrackTool4
+Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.cracktool/js_4.json
+
+Package: com.nan.crash-reporter
+Version: 1.16.0-1
+Architecture: iphoneos-arm
+Maintainer: Entity
+Installed-Size: 1460
+Pre-Depends: firmware (>=4.0)
+Depends: coreutils, dpkg, grep, jp.ashikase.libcrashreport (>= 1.1.0), jp.ashikase.libpackageinfo (>= 1.1.0), jp.ashikase.techsupport (>= 1.5.0), mobilesubstrate, preferenceloader
+Filename: debs/com.nan.crash-reporter_1.16.0-1_iphoneos-arm.deb
+Size: 253200
+MD5sum: a6bd2e4506464444fca5a6fa3b5e6852
+SHA1: 462fd0e0bd263ed569d29fccd66ee35d7e50f8d5
+SHA256: cdd927ab293298713792ebcef78cac6702903648161fb44abf640bc485b5be37
+Section: System
+Homepage: http://github/ashikase/CrashReporter/
+Description: 向开发人员发送有用的崩溃信息。
+Tag: purpose::uikit, role::enduser
+Author: Lance Fetters (ashikase) <support@ashikase.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=crashreporterData
+Dev: ashikase
+Name: CrashReporter
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.nan.cy+cpu.arm64
+Version: 0.1.0
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Conflicts: cy+cpu.arm64
+Replaces: cy+cpu.arm64
+Provides: cy+cpu.arm64
+Filename: debs/com.nan.cy+cpu.arm64_0.1.0_iphoneos-arm.deb
+Size: 626
+MD5sum: 52ac2cee99a9e94239fd8a793281d42a
+SHA1: fa2c1efa12f9b57c99999689b8df4c9a9c07f269
+SHA256: 80e9e1f950140f39f0f7e3cfb7deffa37b0c18d67650cc06494edd47f7dcf7f4
+Section: System
+Description: 解决 cy+cpu.arm64 虚拟依赖报错
+Author: zhaonan
+Name: cy+cpu.arm64
+
+Package: com.nan.cycripter
+Version: 0.1.0
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: mobilesubstrate (>= 0.9.6300), cycript
+Filename: debs/com.nan.cycripter_0.1.0_iphoneos-arm.deb
+Size: 25300
+MD5sum: 864709bb0e83dccd1a486d6e2f39e471
+SHA1: dc67ac41478432330e9e313f6bd1bd7e34613ac3
+SHA256: 3a1588947ab6a6cda99cfbef781f942119ce4d610e65377cc9b03264a3cc6dc1
+Section: Development
+Description: 使 cycript 更容易在 Chimera 中工作的工具最终将尝试使其在较早版本中工作，但目前仅支持 12+。
+Author: NitoTV
+Name: Cycripter
+
+Package: com.nan.cydown
+Version: 7.0.6
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: coreutils-bin, coreutils, mobilesubstrate, preferenceloader
+Conflicts: com.julioverne.cydown
+Provides: com.julioverne.cydown
+Filename: debs/com.nan.cydown_7.0.6_iphoneos-arm.deb
+Size: 2423532
+MD5sum: 9a9059aea31bfb44a5436dacd2973d63
+SHA1: 2ece49f89b0775d87aa7fde004f822e938bc7a52
+SHA256: 31da3dd61cb1f59c6a7fba16c819a4f0cb85c0ff0ec35726c737ce2bf9966c22
+Section: Tweaks
+Homepage: http://twitter.com/ijulioverne
+Description: Cydia 下载管理器 & 额外功能 !
+Author: julioverne <julioverne@me.com>
+Depiction: http://julio.hackyouriphone.org/description.html?id=com.julioverne.cydown
+Icon: https://Invalidunit.github.io/repo/Depictions/com.nan.cydown/image.png
+Name: CyDown
+Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.cydown/js.json
+
+Package: com.nan.cydown-697
+Version: 6.9.7
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: cydia, coreutils-bin, coreutils, apt7, firmware (<< 8.3) | ldid (>= 1:1.2.1), mobilesubstrate, preferenceloader
+Conflicts: com.julioverne.cydown
+Provides: com.julioverne.cydown
+Filename: debs/com.nan.cydown-697_6.9.7_iphoneos-arm.deb
+Size: 1085068
+MD5sum: 3f462220aca5b75e0566f3cb60efecba
+SHA1: 6aa87c348fb96f044207f39f071fef289a7618d0
+SHA256: f9e58ec6d58c10625a929947b916a6e678d68551b25ec568faa2ea4dd4cf8a0e
+Section: Tweaks
+Homepage: http://twitter.com/ijulioverne
+Description: Cydia 下载管理器 & 额外功能 !
+Author: julioverne <julioverne@me.com>
+Depiction: http://julio.hackyouriphone.org/description.html?id=com.julioverne.cydown
+Icon: https://Invalidunit.github.io/repo/Depictions/com.nan.cydown/image.png
+Name: CyDown (6.9.7)
+Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.cydown/js_6.json
+
+Package: com.nan.cydown.zh-hans
+Version: 0.1.0
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: com.julioverne.cydown
+Conflicts: com.nan.cydown
+Replaces: com.julioverne.cydown
+Filename: debs/com.nan.cydown.zh-hans_0.1.0_iphoneos-arm.deb
+Size: 5300
+MD5sum: afd1869c6b98ca708f6cd6080b72fd31
+SHA1: 5514b2b732ad57fafc022f7a3e0e95c20bfa2739
+SHA256: f9f31cb5deeca9286c111d96f39b64091407131bb11c7145a2f273d02d987118
+Section: 汉化
+Description: 为 CyDown 提供简体中文
+Author: zhaonan
+Icon: https://Invalidunit.github.io/repo/Depictions/com.nan.cydown/image.png
+Name: zh-hans for CyDown
+Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.cydown/js_zh_hans.json
+
+Package: com.nan.darkshot
+Version: 0.1.0
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: mobilesubstrate, firmware (>= 13.0)
+Conflicts: xyz.skitty.darkshot
+Provides: xyz.skitty.darkshot
+Filename: debs/com.nan.darkshot_0.1.0_iphoneos-arm.deb
+Size: 23796
+MD5sum: 5ebc7589d54c0b785a1bb3688bcd5980
+SHA1: 1c89eeb28d8478a6a1f4a5d5645ad9240787dfca
+SHA256: 22f180c66980f8930379c95f097e76b0071d588f5f6006982ea727cec56b95eb
+Section: Tweaks
+Description: 加深屏幕截图的闪光颜色
+Author: Skitty
+Depiction: https://skitty.xyz/repo/depictions/?p=xyz.skitty.darkshot
+Icon: https://Invalidunit.github.io/repo/Depictions/com.nan.darkshot/image.png
+Name: DarkShot
+Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.darkshot/js.json
+
+Package: com.nan.darkshot.zh-Hans
+Version: 0.1.0
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: xyz.skitty.darkshot
+Conflicts: com.nan.darkshot
+Filename: debs/com.nan.darkshot.zh-Hans_0.1.0_iphoneos-arm.deb
+Size: 1506
+MD5sum: f3910b9684beeda921cab39eb831130c
+SHA1: ae1ffc13e0dceb670166010f9ee99afb4d89c73a
+SHA256: 8441f88ffeb28d5b43e0385539d33a1a857035f92ea3cbb4f7d1fccd567d3682
+Section: 汉化
+Description: 为 DarkShot 提供简体中文
+Author: zhaonan
+Icon: https://Invalidunit.github.io/repo/Depictions/com.nan.darkshot/image.png
+Name: zh-hans for DarkShot
+Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.darkshot/js_zh_Hans.json
+
+Package: com.nan.datameter
+Version: 1.4-3
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Installed-Size: 1212
+Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2)
+Filename: debs/com.nan.datameter_1.4-3_iphoneos-arm.deb
+Size: 243720
+MD5sum: b1d92270bda948527c723f258c4c2cf6
+SHA1: c2bf138610ca69eb0d0997276fed93fc13427052
+SHA256: a512eb8a8572b200699fc54a0510e213f3f208fad173745b521e725b2c87c745
+Section: Addons (NotificationCenter)
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=datameterDp
+Description: DataMeter 在 iOS 7-10 通知中心
+Tag: purpose::extension, compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11
+Author: Minuit <minuits@163.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=datameterDp
+Dev: minuit
+Icon: file:///Library/PreferenceBundles/DataMeterSettings.bundle/icon@2x.png
+Name: DataMeter
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.nan.deleteforever
+Version: 0.0.1-57
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: firmware (>= 9.0), mobilesubstrate, preferenceloader
+Filename: debs/com.nan.deleteforever_0.0.1-57_iphoneos-arm.deb
+Size: 250524
+MD5sum: 3937dc184861601edb3f98791cf3d7ce
+SHA1: 2e2db40437ee41f9558ac6234087fe6d5fcc33da
+SHA256: cf604e5e42351f873efc411ad994573da2aa83960b315600ea5317763d3e5953
+Section: Tweaks
+Description: 在删除照片的时候,增加永久删除选项(Permanently)
+Author: Creatix
+Name: DeleteForever
+
+Package: com.nan.dimentio
+Version: 0.5.1
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Conflicts: com.michael.dimentio
+Provides: com.michael.dimentio
+Filename: debs/com.nan.dimentio_0.5.1_iphoneos-arm.deb
+Size: 13304
+MD5sum: eb123139af775cd89ec4352942e222c8
+SHA1: 5aa57fc1e2940609b99d4d59f703f0ca6f44370c
+SHA256: a677a27255b15b80fabcc238bb8f18535561b4863cb2652c19ab0dc91038e9a9
+Section: Terminal_Support
+Description: PoC 工具，用于设置随机数而不触发 KPP/KTRR/PAC。(需要 tfp0)
+Tag: role::hacker
+Author: 0x7ff
+Name: dimentio
+
+Package: com.nan.doubletaplock
+Version: 0.0.3
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.nan.doubletaplock_0.0.3_iphoneos-arm.deb
+Size: 54860
+MD5sum: 0075bf0ba9c0eb37730d9c56a68db7c0
+SHA1: da624c34b8e23bf6488e743023c45c11e664990b
+SHA256: 4bec31b79c97846d9f22e937bdcebac4b8d7665a4af84db9c2e6424c4089bf2f
+Section: Tweaks
+Description: 双击主屏幕锁屏
+Author: Spark
+Name: DoubleTapLock
+
+Package: com.nan.downloadbar13
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: mobilesubstrate
+Conflicts: com.shepgoba.downloadbar13
+Provides: com.shepgoba.downloadbar13
+Filename: debs/com.nan.downloadbar13_1.0.1_iphoneos-arm.deb
+Size: 8582
+MD5sum: f62d53118301d44edd90d8f6b59425f4
+SHA1: 997856711718743c6680a57f6b9371f5cb5a45e6
+SHA256: 3d37b24cef1ba72963bb16ff70cad298647d63cf101e7249768e405fe3de80cb
+Section: Tweaks
+Description: 将下载应用程序的圆形下载进度条改为进度条
+Author: shepgoba
+Icon: https://Invalidunit.github.io/repo/Depictions/Default/image_tweaks.png
+Name: DownloadBar13
+Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.downloadbar13/js.json
+
+Package: com.nan.duo
+Version: 1.0.5
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.nan.duo_1.0.5_iphoneos-arm.deb
+Size: 291812
+MD5sum: e876c7f28b50a22433717a17a59820af
+SHA1: 3bf5a1c5eaaab64d23eb002d704ba186b37515b0
+SHA256: 7d3b1f97733cc647797ba52189f3404d5d664f3a7edb072ed3d65d0ad903932d
+Section: Tweaks
+Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=duo
+Description: Add a second page to the iOS 11 Control Center!
+Author: Muirey03 <repo@hackyouriphone.org>
+Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=duo
+Name: Duo
+
+Package: com.nan.elegantsettings
+Version: 1.2.1
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.nan.elegantsettings_1.2.1_iphoneos-arm.deb
+Size: 34052
+MD5sum: 7452a5327fb760d36e02dd0c30cfd22e
+SHA1: 132f40e42e57fdfcfe90ac9e6584ef0a45f07183
+SHA256: a660631b0ab4f44b15092fbcc42404a891ad5c996bb3a877bdd67750ced54871
+Section: Tweaks
+Description: 优雅设置,更好的设置
+ ====================
+ 更改设置选项/箭头颜色
+ 隐藏搜索/红点/用户应用等
+ 禁用还原页面/去除分割线
+ 更新支持A12
+ 如有任何问题可邮件netskao@gmail.com
+ ====================
+Author: Netskao
+Name: Elegant Settings
+
+Package: com.nan.filza
+Version: 3.7.4-12
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: zip, unzip, gzip, unrar, p7zip
+Conflicts: com.tigisoftware.filza64bit, com.tigisoftware.filza, com.nan.filza64bit
+Replaces: com.tigisoftware.filza
+Provides: com.tigisoftware.filza
+Filename: debs/com.nan.filza_3.7.4-12_iphoneos-arm.deb
+Size: 12722774
+MD5sum: a041ea5af0dc9518283b27ceed22585f
+SHA1: ff5f757f9f96c10c6f6337f075635773c80e9d5c
+SHA256: edc5f8c6ad1d0a98a8ca1112ccfbe5521bf3f2dc36a5d80760577efb8f22d614
+Section: Utilities
+Description: iPhone, iPad, iPod Touch 的文件管理器
+Author: TIGI Software
+Icon: https://Invalidunit.github.io/repo/Depictions/com.nan.filza/image.png
+Name: Filza File Manager
+Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.filza/js.json
+
+Package: com.nan.filza64bit
+Version: 3.7.4-12
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: zip, unzip, gzip, unrar, p7zip
+Conflicts: com.tigisoftware.filza, com.tigisoftware.filza64bit, com.nan.filza
+Replaces: com.tigisoftware.filza64bit
+Provides: com.tigisoftware.filza64bit
+Filename: debs/com.nan.filza64bit_3.7.4-12_iphoneos-arm.deb
+Size: 8569022
+MD5sum: ef6e7a5bf4050e63d7bdeb391adf424f
+SHA1: c7f836b8263f7c35b87e930521e6045af0edce03
+SHA256: 396b2392eee314344f580a401859e2adf553b70587b8c86d7a9e1d3bf6419614
+Section: Utilities
+Description: iPhone, iPad, iPod Touch 的文件管理器
+Author: TIGI Software
+Icon: https://Invalidunit.github.io/repo/Depictions/com.nan.filza/image.png
+Name: Filza File Manager 64-bit
+Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.filza/js_64bit.json
+
+Package: com.nan.ft
+Version: 0.1.6
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: firmware (>= 10.3), com.bingner.snappy, diskdev-cmds
+Filename: debs/com.nan.ft_0.1.6_iphoneos-arm.deb
+Size: 2152
+MD5sum: 60f0d8b9f267c2012cbe706652b1f44e
+SHA1: 8cf3425c1275f3aa3204e912706de13fc9e9486c
+SHA256: ae5b469d66925b56eeaadbf2a6e081ed36a0fdce5e1c4d97493b160116237a40
+Section: Terminal_Support
+Description: 运行 ft 即可恢复默认字体。(只要默认快照还在)
+Author: zhaonan <Invalidunit@icloud.com>
+Icon: https://Invalidunit.github.io/repo/Depictions/com.nan.ft/image.png
+Name: ft
+Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.ft/js.json
+
+Package: com.nan.goodwifi
+Version: 0.0~beta4
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.nan.goodwifi_0.0~beta4_iphoneos-arm.deb
+Size: 54986
+MD5sum: 1a88e289e151b6847734fcfe24d7d7bd
+SHA1: eef33cde0063fff7c39d5e5f1c0d138f524b951e
+SHA256: 4f6bbadfd457e130c6e417448ff27e232b12fa3574c26d5cfca6878a8c398488
+Section: Tweaks
+Description: 在设置 Wi-Fi 界面,显示wifi信号强度和增加一个菜单查看历史连接过的wifi和密码
+Author: julioverne
+Name: GoodWiFi
+
+Package: com.nan.icleanerpro
+Version: 7.8.0
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: firmware (>= 4.0), findutils, apt | apt7
+Conflicts: org.altervista.exilecom.icleaner, com.exile90.icleanerpro, com.nan.icleanerpro-crack
+Replaces: org.altervista.exilecom.icleaner, com.exile90.icleanerpro, com.nan.icleanerpro-crack
+Filename: debs/com.nan.icleanerpro_7.8.0_iphoneos-arm.deb
+Size: 7690726
+MD5sum: 112bdc9f2f4b3e3ffd2dda4f7cd761c1
+SHA1: 0e34127a79b9d42b4b7e719b6b8f0cbf04581fd9
+SHA256: 6044cd219aa4b60e589c67383dd03eed603ad38259a113a8fdcb9421eed72f4b
+Section: Utilities
+Homepage: http://ib-soft.net/icleaner
+Description: iOS 系统清理 & 优化
+Author: Ivano Bilenchi <support@ib-soft.net>
+Depiction: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
+Icon: https://Invalidunit.github.io/repo/Depictions/com.nan.icleanerpro/image.png
+Name: iCleaner Pro
+Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.icleanerpro/js.json
+
+Package: com.nan.icleanerpro-crack
+Version: 7.8.0
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: firmware (>= 4.0), findutils, apt | apt7
+Conflicts: org.altervista.exilecom.icleaner, com.exile90.icleanerpro, com.nan.icleanerpro
+Replaces: org.altervista.exilecom.icleaner, com.exile90.icleanerpro, com.nan.icleanerpro
+Filename: debs/com.nan.icleanerpro-crack_7.8.0_iphoneos-arm.deb
+Size: 7690872
+MD5sum: 755280781855f1e5af30c6df848b4b0a
+SHA1: 5392afb665f9114316e798b991560bd7799b9f1b
+SHA256: d3ff0c01fa876fcc65ea60fcf5d7046e8955bb7929a2cb6e5df20409d3e59bc5
+Section: Utilities
+Homepage: http://ib-soft.net/icleaner
+Description: iOS 系统清理 & 优化
+Author: Ivano Bilenchi <support@ib-soft.net>
+Depiction: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
+Icon: https://Invalidunit.github.io/repo/Depictions/com.nan.icleanerpro/image.png
+Name: iCleaner Pro Crack
+Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.icleanerpro/js_crack.json
+
+Package: com.nan.ioshelper12
+Version: 1.4.2
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: firmware (>= 12.0), mobilesubstrate, preferenceloader
+Filename: debs/com.nan.ioshelper12_1.4.2_iphoneos-arm.deb
+Size: 99328
+MD5sum: f378c47a2518d990f884a8afaa6e9f8f
+SHA1: 79e7dd526748b8c4253ad5959f4f0b9967e4e5d5
+SHA256: 7d8801d321a71c568e7323e000f547b6b1a52f2eeffbcd7e2d02a2ed0063f4ce
+Section: Tweaks
+Description: iOS 系统多功能定义助手
+Author: iBreak
+Name: iOS Helper 12
+
+Package: com.nan.ioshelper122
+Version: 2.0
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: firmware (>= 12.0), mobilesubstrate, preferenceloader
+Filename: debs/com.nan.ioshelper122_2.0_iphoneos-arm.deb
+Size: 139928
+MD5sum: 89bcc3258cf2373260519a0cc59273ff
+SHA1: 03cf08189a0ff38ac0a106e0429bf634786be197
+SHA256: 586ef8aa356df551454b8402390516cddf710dca283b19239e5d23652801fc76
+Section: Tweaks
+Description: iOS 系统多功能定义助手
+Author: iBreak
+Name: iOS Helper 12
+
+Package: com.nan.kalm
+Version: 1.2.2
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.ioscreatix.twig, xyz.royalapps.jellyfish, com.bengiannis.manta, com.xcxiao.simplels2, com.lacertosusrepo.speculum, hi.my.name.is.ubik.kalm
+Filename: debs/com.nan.kalm_1.2.2_iphoneos-arm.deb
+Size: 202528
+MD5sum: a615090f525c4dfa4a4e2437ae475220
+SHA1: 2b197c704dfe5dec1b27f3f3930b8cbc8879aad4
+SHA256: b2140c71e81f21179029def167297c2c181b971ef7755e0d745dc8995122053d
+Section: Tweaks
+Description: 一个漂亮的锁屏插件
+Author: ubik <cydia@ubikstyl.es>
+Icon: https://Invalidunit.github.io/repo/Depictions/com.nan.kalm/image.png
+Name: Kalm
+Procides: hi.my.name.is.ubik.kalm
+Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.kalm/js.json
+
+Package: com.nan.kalm.zh-Hans
+Version: 0.1.1
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: hi.my.name.is.ubik.kalm
+Conflicts: com.nan.kalm
+Filename: debs/com.nan.kalm.zh-Hans_0.1.1_iphoneos-arm.deb
+Size: 3212
+MD5sum: 9e0e868f16e5cdf30e495f63662e652d
+SHA1: 5198e4820e1692225e8d5a1c0a9f75e99e6d2e81
+SHA256: 6eb9d9ee40f7c71249abb094b86467f103832840ffccb557e3cdf53ccafc794a
+Section: 汉化
+Description: 为 Kalm 提供简体中文
+Author: zhaonan
+Icon: https://Invalidunit.github.io/repo/Depictions/com.nan.kalm/image.png
+Name: zh-hans for Kalm
+Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.kalm/js_zh_Hans.json
+
+Package: com.nan.libertylite
+Version: 0.2.11
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader, applist
+Conflicts: com.ryleyangus.liberty, com.ryleyangus.libertylite
+Filename: debs/com.nan.libertylite_0.2.11_iphoneos-arm.deb
+Size: 37700
+MD5sum: fab2cacdb4bd9a12525dc71077c3c16c
+SHA1: 9bbacf8f74c7cb46cc47e61bac8fb29a63575bc0
+SHA256: bb2e413fb01649601223fef0842ffc907696c7f39f2296f1edfeedf0914c677e
+Section: Tweaks
+Description: 目前主流的越狱屏蔽插件,可配合NoSubstrate使用
+Author: Ryley Angus
+Name: Liberty Lite (Beta)
+
+Package: com.nan.little11
+Version: 1.2.0
+Architecture: iphoneos-arm
+Maintainer: Ryan Nair
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.binksalex.fluidify, com.vitataf.homegesture, com.VitaTaf.HomeGesture, com.ioscreatix.littlex, com.ryannair05.little11
+Replaces: com.binksalex.fluidify, com.vitataf.homegesture, com.VitaTaf.HomeGesture, com.ioscreatix.littlex
+Provides: com.ryannair05.poseidon, com.ryannair05.poseidon-rounded, com.VitaTaf.HomeGesture, com.ioscreatix.littlex, com.duraidabdul.neptune, com.ryannair05.little11
+Filename: debs/com.nan.little11_1.2.0_iphoneos-arm.deb
+Size: 20496
+MD5sum: cc6f47ab24232c4d332887d524d757c2
+SHA1: a73741fc1bcd6b242572d7e6c434e0fd9dea3bf5
+SHA256: 8d560d40a5b9773d179b38b2d363d2d0ff9d4c0d33bd012e7b46a215245a5604
+Section: Tweaks
+Description: 适用于 iOS 13 的 iPhone X 手势
+Author: Ryan Nair
+Icon: https://Invalidunit.github.io/repo/Depictions/com.nan.little11/image.png
+Name: Little11
+Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.little11/js.json
+
+Package: com.nan.little11.zh-Hans
+Version: 0.1.1
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: com.ryannair05.little11
+Conflicts: com.nan.little11
+Filename: debs/com.nan.little11.zh-Hans_0.1.1_iphoneos-arm.deb
+Size: 2068
+MD5sum: 6457d5c5178308c8630ed81b084387f9
+SHA1: b4ce079390083997c450f9d4ac2606bb9b0f281a
+SHA256: 00f3e5c689cb3f3da93c98fb6641dd5b442a82b5c885ace74345b3164bc5a50c
+Section: 汉化
+Description: 为 Little11 提供简体中文
+Author: zhaonan
+Icon: https://Invalidunit.github.io/repo/Depictions/com.nan.little11/image.png
+Name: zh-hans for Little11
+Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.little11/js_zh_Hans.json
+
+Package: com.nan.localhostssh
+Version: 0.1.3
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: mobilesubstrate, firmware (>= 11.0), sed, com.bingner.plutil, openssh
+Filename: debs/com.nan.localhostssh_0.1.3_iphoneos-arm.deb
+Size: 1026
+MD5sum: 4cddb5de724716c36294a65ea74401fd
+SHA1: 71f05c0e947cc999419ebc9e0284c079095b073f
+SHA256: a8b4d348d87693ebfde0999d514e9a9b06d9b3dfa15ec91ae29f7f3de8c746c8
+Section: System
+Description: 为 iOS 本地主机 SSH 访问启用 2222 端口
+Author: zhaonan
+Icon: https://Invalidunit.github.io/repo/Depictions/com.nan.localhostssh/image.png
+Name: Local SSH
+Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.localhostssh/js.json
+
+Package: com.nan.localhostssh10
+Version: 0.1.0
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: mobilesubstrate, firmware (<= 10.9), sed, com.ericasadun.utilities, openssh
+Filename: debs/com.nan.localhostssh10_0.1.0_iphoneos-arm.deb
+Size: 1050
+MD5sum: 67700676c2814e6297745ae0b3fe2fca
+SHA1: 3bae807598566943c22e7d11b8408312ca0d5ca6
+SHA256: bdc716778f4676f2ba2b80c7e0afbcc18c5aff3f4e3b84590d1ec666b69e974e
+Section: System
+Description: 为 iOS 本地主机 SSH 访问启用 2222 端口
+Author: zhaonan
+Icon: https://Invalidunit.github.io/repo/Depictions/com.nan.localhostssh/image.png
+Name: Local SSH (7-10)
+Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.localhostssh/js_10.json
+
+Package: com.nan.localiapstore
+Version: 1.4-4
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: firmware (>= 7.0), mobilesubstrate, preferenceloader
+Filename: debs/com.nan.localiapstore_1.4-4_iphoneos-arm.deb
+Size: 71024
+MD5sum: ef2ee5061d285400aad44e3aa544286e
+SHA1: 353c296702094adf54658103466fe8c9857d558b
+SHA256: 9014c22c5a0095735aad55f0632255230f9ce41a71a0b70952595d66aff97062
+Section: Tweaks
+Description: 不错的内购破解
+Author: PanguTeam
+Icon: https://Invalidunit.github.io/repo/Depictions/com.nan.localiapstore/image.png
+Name: LocalIAPStore
+Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.localiapstore/js.json
+
+Package: com.nan.nodndbanner
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: firmware (>= 11.0), mobilesubstrate
+Filename: debs/com.nan.nodndbanner_0.0.1_iphoneos-arm.deb
+Size: 3630
+MD5sum: 773195cbb7640a8a39154e1c228cc5b9
+SHA1: cebf6a709efef12fc6f4a05d9b95628f9fcf09b9
+SHA256: b528411929d5f9b22a11053a982b000f84f5e5ea589bbd08d28e2dcbe84a3c81
+Section: Tweaks
+Description: 屏蔽勿扰模式下的锁屏横幅
+Author: MrGcGamer
+Icon: https://Invalidunit.github.io/repo/Depictions/com.nan.nodndbanner/image.png
+Name: NoDNDBanner
+Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.nodndbanner/js.json
+
+Package: com.nan.openccmm
+Version: 0.1.2
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: com.bingner.plutil , firmware (>= 11.0) , firmware (<= 13.9)
+Filename: debs/com.nan.openccmm_0.1.2_iphoneos-arm.deb
+Size: 984
+MD5sum: f778cf8ff4d9d4398d3a5423405fb9de
+SHA1: ce74297e1611432a65e75e99879eaa824e518366
+SHA256: 81ae21c2f1cb0eeae7b0d4c553737b77eaf6bfed933606d8d9d3931f8b1437ab
+Section: System
+Description: 激活原生 iPhone 控制中心静音模块，安装后未激活越狱也生效
+Author: zhaonan
+Icon: https://Invalidunit.github.io/repo/Depictions/com.nan.openccmm/image.png
+Name: Activation CC MuteModule
+Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.openccmm/js.json
+
+Package: com.nan.pencilchargingindicator
+Version: 1.2~b7
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: mobilesubstrate
+Filename: debs/com.nan.pencilchargingindicator_1.2~b7_iphoneos-arm.deb
+Size: 508838
+MD5sum: 5d6b0b8fbda685833e029293cad5585f
+SHA1: 4c39d8f68ff0bf7ebd83a50b20fb8444a2308966
+SHA256: 3051628c7066fb0ad6869d00977fbb3b96060debba16f2cc7067d003d160a4c9
+Section: Tweaks
+Description: 移植 iPadPro 的 ApplePencli 充电动画
+Author: shiftcmdk
+Depiction: https://shiftcmdk.github.io/repo/depictions/?p=com.shiftcmdk.pencilchargingindicator
+Icon: https://Invalidunit.github.io/repo/Depictions/com.nan.pencilchargingindicator/image.png
+Name: PencilChargingIndicator
+Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.pencilchargingindicator/js.json
+
+Package: com.nan.plutil
+Version: 0.2.1
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: firmware (>=2.0)
+Conflicts: com.ericasadun.utilities, com.bingner.plutil
+Provides: com.bingner.plutil
+Filename: debs/com.nan.plutil_0.2.1_iphoneos-arm.deb
+Size: 27276
+MD5sum: f765ee1ccbeed8fa4059c11ca5cc0d5f
+SHA1: 64d14d968539154cac4f684a49e5eb91b5c2461b
+SHA256: 0e9b1451a637e804bd2fa0613f58fc3de823afa589023f91dd74a9c078efccd8
+Section: Terminal_Support
+Multi-Arch: foreign
+Description: 来自 erica sadun 的 plutil
+Tag: role::hacker
+Author: Samuel Bingner
+Name: plutil
+
+Package: com.nan.pulloverpro
+Version: 2.1
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: firmware (>= 10.0), mobilesubstrate, com.rpetrich.rocketbootstrap, applist
+Conflicts: com.c1d3r.pulloverpro
+Provides: com.c1d3r.pulloverpro
+Filename: debs/com.nan.pulloverpro_2.1_iphoneos-arm.deb
+Size: 1860526
+MD5sum: 0919a9d24a304a77750b27a710b97794
+SHA1: 181c928d473bf1c30b4020cddb054500f022572f
+SHA256: 0f92a0e7b24e5074a35e3bddde59f8f297b106f849a4e2c8e8d659183cef649a
+Section: Tweaks
+Priority: optional
+Description: 一种更好的多任务!
+Author: c1d3r <c1d3rdev@gmail.com>
+Depiction: https://c1d3r.com/repo/depictions/?p=com.c1d3r.pulloverpro
+Dev: c1d3r <c1d3rdev@gmail.com>
+Icon: https://Invalidunit.github.io/repo/Depictions/com.nan.pulloverpro/image.png
+Name: PullOver Pro
+Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.pulloverpro/js.json
+
+Package: com.nan.pulloverpro.zh-Hans
+Version: 0.1.0
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: com.c1d3r.pulloverpro
+Conflicts: com.nan.pulloverpro, com.nan.pulloverpro-beta
+Filename: debs/com.nan.pulloverpro.zh-Hans_0.1.0_iphoneos-arm.deb
+Size: 1896
+MD5sum: 0ae5b3fd4ec5660333d1236a9c75ae09
+SHA1: fbea254d06477613391b99a79d566cce077ee2b5
+SHA256: b33529e94e921e3cf035a355b0ae9b2b7b382c61c786441421b6995c0a38d642
+Section: 汉化
+Description: 为 PullOver Pro 提供简体中文
+Author: zhaonan
+Icon: https://Invalidunit.github.io/repo/Depictions/com.nan.pulloverpro/image.png
+Name: zh-hans for PullOver Pro
+Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.pulloverpro/js_zh_Hans.json
+
+Package: com.nan.qqanitirecallhook
+Version: 1.2
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: mobilesubstrate
+Filename: debs/com.nan.qqanitirecallhook_1.2_iphoneos-arm.deb
+Size: 26796
+MD5sum: 3faa13d8500e61285a18a4b8cdf8dac6
+SHA1: 80094681a36378470e914c6d6e2e52a4c9fc90f9
+SHA256: 3d61caf6218a079277483b074e9489e0ff3e8d9e3976b3e3cce55d4b01b83982
+Section: Tweaks
+Description: QQ 和 TIM 防撤回带提示，仅此功能无开关，使用前请关闭其他同类 QQ 防撤回！
+Author: wjg (TouGBao)
+Name: QQanitiRecallHook
+
+Package: com.nan.rootfs
+Version: 0.1.3
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: diskdev-cmds , com.bingner.snappy , firmware (>=11.0)
+Filename: debs/com.nan.rootfs_0.1.3_iphoneos-arm.deb
+Size: 14448
+MD5sum: aa7927bb659ba83fd10a5b6b64d43b77
+SHA1: d57c42d4663893967ecf4ce393eee51d9e125925
+SHA256: 6d2170a3dbfb91707b43e14f5122a5743f56ba2b0d28f715c71274bafe7fb439
+Section: System
+Description: rootfs && 重建缓存
+ 恢复到未越狱状态并清空越狱 App 图标缓存
+ SSH 卸载可撤销
+ SSH 运行 urootfs 也可以撤销
+Author: zhaonan
+Icon: https://Invalidunit.github.io/repo/Depictions/com.nan.rootfs/image.png
+Name: rootfs
+Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.rootfs/js.json
+
+Package: com.nan.setwallpaper
+Version: 0.1.3
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: firmware (>= 13.0)
+Filename: debs/com.nan.setwallpaper_0.1.3_iphoneos-arm.deb
+Size: 136280
+MD5sum: a9af343677f95edef89aceee45f3fb14
+SHA1: aecefcc9ba45b4125cc44107c826c45a1dae4d42
+SHA256: baadcae718ec7f14bd823d4a75bc8e4dd94bb78aff9e5598a12f6257b7ccfa99
+Section: System
+Description: 为光暗模式分别自定义壁纸
+Author: MichaelMKenny
+Icon: https://Invalidunit.github.io/repo/Depictions/com.nan.setwallpaper/image.png
+Name: Set Wallpaper
+Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.setwallpaper/js.json
+
+Package: com.nan.showtouch
+Version: 1.0.4
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: mobilesubstrate, org.thebigboss.libcolorpicker
+Filename: debs/com.nan.showtouch_1.0.4_iphoneos-arm.deb
+Size: 106590
+MD5sum: e966842636bd399dea154e15e1fc698c
+SHA1: 6eedbe2ec8bf7f5b5109702675796ad129784c65
+SHA256: 560578d34576e7b70aff7ded405cd9b3eb91966a10627c7fbe92466b22a8d42d
+Section: Tweaks
+Description: 触摸指示器！可开启仅录屏时显示。
+Author: LonestarX
+Icon: https://Invalidunit.github.io/repo/Depictions/com.nan.showtouch/image.png
+Name: ShowTouch
+Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.showtouch/js.json
+
+Package: com.nan.shuffle
+Version: 1.0.4
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Pre-Depends: firmware (>= 8.0), com.ex.libsubstitute | mobilesubstrate
+Depends: com.creaturecoding.libcspreferences
+Conflicts: com.cpdigitaldarkroom.placeholder
+Replaces: com.cpdigitaldarkroom.placeholder
+Filename: debs/com.nan.shuffle_1.0.4_iphoneos-arm.deb
+Size: 178940
+MD5sum: 03ecdd28e94d3fba3eb9088768c27857
+SHA1: 3d4c7ad78e8f97c7d999a77e2715a8d8a7ef249b
+SHA256: 7cb8bb56328ce1caaa18b74722ba6c523ab22318d61cf3ebe3391c7811ab3b68
+Section: Tweaks
+Description: 更稳定的设置分类插件，类似明美的设置分类
+Author: CreatureSurvive
+Name: Shuffle
+
+Package: com.nan.shutup
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: mobilesubstrate
+Filename: debs/com.nan.shutup_1.0.1_iphoneos-arm.deb
+Size: 3682
+MD5sum: b6070363b8cf551568f7c125d302bb36
+SHA1: 57f993ab5a03aebbeaae3986c689d1f7aea12072
+SHA256: a6e8560175cc6bbc9edb792cf8c060045b2caa81da819c8a0ee20031988c8d9b
+Section: Tweaks
+Description: 从键盘上删除听写按钮。
+Author: Soh Satoh
+Icon: https://Invalidunit.github.io/repo/Depictions/com.nan.shutup/image.png
+Name: ShutUp
+Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.shutup/js.json
+
+Package: com.nan.shynotifications
+Version: 0.0.1-2
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: mobilesubstrate
+Filename: debs/com.nan.shynotifications_0.0.1-2_iphoneos-arm.deb
+Size: 2776
+MD5sum: ed26af91167e3edcc34505902e0f99f2
+SHA1: b27d6804dd4d3bf7b33dc54a6699e3d5e843d2cc
+SHA256: eceb3e413b631dd8f736eedb179e176d450efa985a8cd2ce580427f0d6f5950a
+Section: Tweaks
+Description: 在锁屏状态时,收到任何通知都不自动唤醒屏幕
+Author: CydiaGeek
+Name: ShyNotifications
+
+Package: com.nan.sileo.zh-Hans
+Version: 0.2.0
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: org.coolstar.sileo
+Filename: debs/com.nan.sileo.zh-Hans_0.2.0_iphoneos-arm.deb
+Size: 7980
+MD5sum: 9c474ce0e93cc525011f6d237a7fdba6
+SHA1: c67b5e0c20fc3fa82d35d75548a3cc2d3f707c8f
+SHA256: 8ef44d1e61e403cf8584b94ba00f7094f88229498fe3e13ffc2c84cae124e678
+Section: 汉化
+Description: 为 Sileo 提供简体中文
+Author: zhaonan
+Icon: https://Invalidunit.github.io/repo/Depictions/com.nan.sileo.zh-Hans/image.png
+Name: zh-hans for Sileo
+Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.sileo.zh-Hans/js.json
+
+Package: com.nan.sileopurification
+Version: 1.1-1
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: firmware (>= 11.0), mobilesubstrate, org.coolstar.sileo
+Filename: debs/com.nan.sileopurification_1.1-1_iphoneos-arm.deb
+Size: 59702
+MD5sum: 333dc5df8f60863f8da42ecb9ba9adb6
+SHA1: bd0e73a51eee34ccbc1f866ef0f84fb837038623
+SHA256: b7319c054c88d28e5978897a8c781a241414463c67c6c62f0d7d76996bc2dc7e
+Section: Tweaks
+Description: Sileo 净化，开启后台下载，去烦人广告横幅，关闭危险源检测
+Author: Netskao
+Icon: https://Invalidunit.github.io/repo/Depictions/com.nan.sileopurification/image.png
+Name: Sileo Purification
+Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.sileopurification/js.json
+
+Package: com.nan.sleepanywhere
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: mobilesubstrate
+Filename: debs/com.nan.sleepanywhere_1.0.0_iphoneos-arm.deb
+Size: 25404
+MD5sum: 98514936de27b66c8d3fcac8d9930a05
+SHA1: e07e81781c91e36416ccff428ff91d95c3413cc2
+SHA256: 5cda676f8691a126c0ed6381285d15a1fd780c46ee1d08657b4905fba63a37cc
+Section: Tweaks
+Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=sleepanywhere
+Description: 当你有手势时,为何还要使用锁定按钮
+Author: Kiet Ha <repo@hackyouriphone.org>
+Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=sleepanywhere
+Name: SleepAnywhere
+
+Package: com.nan.slimvolumehud
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: mobilesubstrate
+Filename: debs/com.nan.slimvolumehud_0.0.1_iphoneos-arm.deb
+Size: 3810
+MD5sum: cf1b40c56c10961577d26c8866e17cf5
+SHA1: 8c1844511ca3adf78dc611e8fc55b0732b2ab73b
+SHA256: d535c5a2dbf550d442ab4e5235a2f0172a34de0df32fa1df541ee9be29290c07
+Section: Tweaks
+Description: 摆脱 "脂肪" iOS 13 音量 HUD 状态
+Author: level3tjg
+Name: SlimVolumeHUD
+
+Package: com.nan.snappy
+Version: 1.3.0
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: firmware (>= 10.3)
+Conflicts: com.bingner.snappy
+Provides: com.bingner.snappy
+Filename: debs/com.nan.snappy_1.3.0_iphoneos-arm.deb
+Size: 15556
+MD5sum: 768ac9231c1459677466c7328ec57ea5
+SHA1: b55f0483f382f9b8ddb80a1a49871d265311790e
+SHA256: f64df64772acea029d06e299b36386d85bcdaf9fde90b4c3f42c3d470c1ac594
+Section: Terminal_Support
+Description: APFS 快照管理工具
+Tag: role::hacker
+Author: Sam Bingner <snappy@bingner.com>
+Name: Snappy
+
+Package: com.nan.sutuplus
+Version: 2.8.3-1
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: firmware (>= 5.0), mobilesubstrate
+Conflicts: org.thebigboss.sutuplus
+Provides: org.thebigboss.sutuplus
+Filename: debs/com.nan.sutuplus_2.8.3-1_iphoneos-arm.deb
+Size: 464178
+MD5sum: 50e7712a464fb650947ebe8810e66ab6
+SHA1: f0aaa6f380701fe5eae7835e03621359fbbb9fab
+SHA256: 241ff95169e90c5a293fca6c60cce188f18857deb4d90f63f548a0234100b092
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=sutuplusDp
+Description: 微信主题管理器
+Author: Carby <super.cat.rabbit@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=sutuplusDp
+Dev: carby
+Icon: https://Invalidunit.github.io/repo/Depictions/Default/image_tweaks.png
+Name: SutuPLUS
+Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.sutuplus/js.json
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.nan.swipeselection
+Version: 1.5.6
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: mobilesubstrate
+Filename: debs/com.nan.swipeselection_1.5.6_iphoneos-arm.deb
+Size: 80048
+MD5sum: 9ccc96043e5e4e6477dd1156635706f7
+SHA1: 53b3bded4d09a3fe659b7037cb37e12875072441
+SHA256: da28a7324534efe352595cad5881f11e9397eeb2cfcdb288280a16599d58355a
+Section: Tweaks
+Description: 在键盘上左右滑动来控制打字光标,无需空格，无需 3D Touch
+Author: Kyle Howells
+Name: SwipeSelection
+
+Package: com.nan.systeminfo
+Version: 2.3.2-6+debug
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: mobilesubstrate
+Filename: debs/com.nan.systeminfo_2.3.2-6+debug_iphoneos-arm.deb
+Size: 568884
+MD5sum: 40aa2eda922c9ab50ba8653d676309e0
+SHA1: 682b9f34f53182ebcc30554b38410125f6e400ff
+SHA256: 762b0e77f8acfd7e625566f956f76f85d39ae728783b4c8057d17a1439cdad79
+Section: Tweaks
+Description: 系统信息查看增强
+Author: ARX8x
+Icon: https://Invalidunit.github.io/repo/Depictions/Default/image_tweaks.png
+Name: System Info
+Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.systeminfo/js.json
+
+Package: com.nan.systempurification
+Version: 1.4-6
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: mobilesubstrate, preferenceloader, firmware (<= 12.9)
+Conflicts: netskao.systempurificationx, com.nan.systempurificationx
+Provides: netskao.systempurification
+Filename: debs/com.nan.systempurification_1.4-6_iphoneos-arm.deb
+Size: 62836
+MD5sum: f205583ea0b39113a400346511606525
+SHA1: 21e4be5aff27f25735fb1ba131fef92a8a301d27
+SHA256: 827366c062a8986ea5693a4b916df8022f5366df00caf7c5ac13660c381bb2d0
+Section: Tweaks
+Description: 一些微小的改变，给你带来更好的体验
+ 此版本不支持 X 以上设备，X 以下机型专用
+Author: Netskao
+Icon: https://Invalidunit.github.io/repo/Depictions/com.nan.systempurification/image.png
+Name: System Purification
+Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.systempurification/js.json
+
+Package: com.nan.systempurificationx
+Version: 1.1-5
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: mobilesubstrate, preferenceloader, firmware (<= 12.9)
+Conflicts: netskao.systempurification, com.nan.systempurification
+Provides: netskao.systempurificationx
+Filename: debs/com.nan.systempurificationx_1.1-5_iphoneos-arm.deb
+Size: 53568
+MD5sum: 8c9dbab0f0476fe8c2f7ce6c052ae6dd
+SHA1: eeb91ecabbeedca86b9eb48994bddb74acf0035b
+SHA256: bbfa86b8c1431977a96ff70dfe4dcb226c53b8cee159c9d8b5a2f67519adee51
+Section: Tweaks
+Description: 一些微小的改变，给你带来更好的体验
+ 此版本 X 以上机型专用
+Author: Netskao
+Icon: https://Invalidunit.github.io/repo/Depictions/com.nan.systempurification/image.png
+Name: System Purification X
+Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.systempurification/js_x.json
+
+Package: com.nan.tetherme8
+Version: 1.2.3~arm64e-1
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Pre-Depends: mobilesubstrate (>= 0.9.5101)
+Depends: firmware (>= 8.0), preferenceloader (>= 2.2.2), firmware (>= 11.0) | network-cmds
+Conflicts: net.tetherme.tetherme, net.tetherme.tetherme8
+Replaces: net.tetherme.tetherme
+Provides: net.tetherme.tetherme8
+Filename: debs/com.nan.tetherme8_1.2.3~arm64e-1_iphoneos-arm.deb
+Size: 206410
+MD5sum: ecedc591e576e7623c444cf5e3944276
+SHA1: 5e38a210ede20ac27e07b84050ffa08745a9b98b
+SHA256: 635d186fea494ca681a95529a98797eb00e2cd97a61e3b637e327978e49b55ba
+Section: Networking
+Description: 动态启用 iOS8 + 设备的本机网络共享。这应该适用于任何运营商而无需定制捆绑或首选项。
+Author: Sam Bingner
+Depiction: http://repo.tetherme.net/net.tetherme.tetherme8.html
+Icon: https://Invalidunit.github.io/repo/Depictions/com.nan.tetherme/image.png
+Name: TetherMe
+Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.tetherme/js.json
+
+Package: com.nan.togglow
+Version: 1.0.7
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: mobilesubstrate, org.thebigboss.libcolorpicker
+Filename: debs/com.nan.togglow_1.0.7_iphoneos-arm.deb
+Size: 355884
+MD5sum: 70815b94e63ab4a3040b1adc4d752150
+SHA1: 7e412759b152548ef9c942b3e116301841e756ae
+SHA256: 4e4d0de5bc35ec938f3025c0cb1c9282d28c1e97e62689f059cb2eb7741e2f15
+Section: Tweaks
+Description: 个性化控制中心,让控制中心外环发光
+Author: smokin1337
+Name: Togglow
+
+Package: com.nan.tsssaver
+Version: 1.2
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Pre-Depends: firmware (>=8.0)
+Depends: mobilesubstrate, net.limneos.libbulletin
+Filename: debs/com.nan.tsssaver_1.2_iphoneos-arm.deb
+Size: 420136
+MD5sum: bb71550bb40b108c1f0b7bb25462296d
+SHA1: 143dad5198b6edc21b88ae8d1e36a90840b5dbec
+SHA256: f664dae4d016e3a1d451cea17a8d4b5c54ad9cd837d460725355620a1ca2333c
+Section: Utilities
+Description: 一个方便备份 SHSH2 的工具
+Author: IArrays <support@iarrays.com>
+Icon: https://Invalidunit.github.io/repo/Depictions/com.nan.tsssaver/image.png
+Name: TSS Saver (modify)
+Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.tsssaver/js_modify.json
+Sponsor: IArrays
+
+Package: com.nan.twig
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: mobilesubstrate
+Filename: debs/com.nan.twig_1.0.1_iphoneos-arm.deb
+Size: 7572
+MD5sum: 7636f4f007c7730ce2cafa26969d30fd
+SHA1: 69a112babaa1ce6ae35f8818c0ff8c7173d7a190
+SHA256: c14aa9b2caec5087415b0d0311bec80dc605bfd68f585a48734a634260546f61
+Section: Tweaks
+Description: 为 iOS10+ 的 iPhone 或者 iPod Touch 的锁屏添加一些天气
+Author: iOS Creatix
+Name: Twig
+
+Package: com.nan.weathervane
+Version: 1.3.0
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: firmware (>=11.0), mobilesubstrate
+Filename: debs/com.nan.weathervane_1.3.0_iphoneos-arm.deb
+Size: 36036
+MD5sum: 90e1128689ee8cb40eb79a87e39b1008
+SHA1: 1b597164ccbe07eb3bc8102f32d8a29c40df8c9e
+SHA256: 253154b4d6cde7be25ec5690e3ac030b8de487289612d934edfff6f6d6b21836
+Section: Tweaks
+Description: 在控制中心长按 WIFI 按钮或蓝牙按钮即可唤出快捷切换窗
+Author: iOS Creatix
+Name: WeatherVane
+
+Package: com.nan.xkfilza
+Version: 0.0.1-23+debug
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: mobilesubstrate, com.tigisoftware.filza | com.tigisoftware.filza64bit
+Filename: debs/com.nan.xkfilza_0.0.1-23+debug_iphoneos-arm.deb
+Size: 5748
+MD5sum: 7f88ea92b01ade1869353d57913a5d9c
+SHA1: 2ee8fac11449cad7a20ad3a02117b950d7966682
+SHA256: 5008a8e8c484cb490c6af949c0b5bba66b901b546af016e8fecd836cbead8d17
+Section: Tweaks
+Description: Filza 伪装序列号破解
+Author: xia0z
+Icon: https://Invalidunit.github.io/repo/Depictions/com.nan.xkfilza/image.png
+Name: xkFilza
+Sileodepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.xkfilza/js.json
+
+Package: com.saurik.afc2d
+Version: 1.2
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: firmware (<< 8.0) | mobilesubstrate
+Conflicts: us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Replaces: us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Provides: us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Filename: debs/com.saurik.afc2d_1.2_iphoneos-arm.deb
+Size: 18114
+MD5sum: 34291f44d22cfbbf3eb4bad0ade3b89c
+SHA1: bddaf385263b9aad2b032b2116179f83afd077cc
+SHA256: 287ac4ce1a6e4095e824fd90f71fed301ff7d9508f1cd2d87a7354053e347a3c
+Section: System
+Priority: optional
+Description: allow full file-system access over USB
+Tag: purpose::daemon, role::enduser
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/com.saurik.afc2d/
+Name: Apple File Conduit "2"
+
+Package: com.saurik.impactor
+Version: 0.9.43
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Depends: firmware (>= 7.1), firmware (<= 10.3.3)
+Breaks: com.saurik.patych (<< 1.0.1)
+Filename: debs/com.saurik.impactor_0.9.43_iphoneos-arm.deb
+Size: 386560
+MD5sum: 21cb7131e2949c1696ece268d6056c6d
+SHA1: 2efe3eab846d97b60308c59a11a40c32d91ffbe7
+SHA256: b91be52acef2b18455b16285f9ba105b404cc2aa9cb6439626517a47061e8727
+Section: Utilities
+Priority: optional
+Description: specific utility to unjailbreak most devices
+Tag: purpose::uikit, role::enduser
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/com.saurik.impactor/
+Icon: file:///Applications/Eraser.app/Icon-60.png
+Name: Cydia Eraser
+
+Package: com.skyglow.itunesstorex
+Version: 2.0
+Architecture: iphoneos-arm
+Maintainer: Requis, Daph
+Installed-Size: 216
+Depends: mobilesubstrate, firmware(<==6)
+Filename: debs/com.skyglow.itunesstorex_2.0_iphoneos-arm.deb
+Size: 9564
+MD5sum: dd61e7042169e2d0c5e5f3199da69906
+SHA1: 7217208fe18d7a366d31deb6aa46c4dc249efc00
+SHA256: e225c525d5fa170ff95b21126a2ae2b3cfb3b7ec95cdc1b25e854110dbffc1db
+Section: Tweaks
+Description: This tweak fixes any storefront. It fixes every app's connection issues with the iTunes Store, as of recent changes made by Apple, this tweak does not allow to download apps.
+Author: Requis, Bag.xml
+Depiction: https://cydia.skyglow.es/depictions/?p=com.skyglow.itunesstorex
+Name: iTunesStoreX
+
+Package: com.spark.snowboard
+Version: 1.4.9~Beta4
+Architecture: iphoneos-arm
+Maintainer: Spark
+Installed-Size: 4648
+Depends: mobilesubstrate, preferenceloader
+Conflicts: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Replaces: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Provides: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Filename: debs/com.spark.snowboard_1.4.9~Beta4_iphoneos-arm.deb
+Size: 1529774
+MD5sum: b1166161f4307b45727d4d08c4b69f65
+SHA1: 8571c49a7fb84d8f4369376fd32eb4e568f7146d
+SHA256: 54767495a75d11c4412917d7c0d10d3e020567695d9041f6064f728d632c976b
+Section: Tweaks
+Description: Snowboard theming engine
+Author: Spark & Dennis D. Bednarz
+Name: SnowBoard
+
+Package: cydia
+Version: 1.1.30
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 7160
+Pre-Depends: debianutils, dpkg (>= 1.14.25-8)
+Depends: apt7-lib, apt7-key, cydia-lproj (>= 1.1.10), darwintools, debianutils, dpkg (>= 1.18), org.thebigboss.repo.icons, sed, shell-cmds, system-cmds, uikittools (>= 1.1.4)
+Conflicts: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd
+Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd
+Provides: bigbossbetarepo, cydia-sources
+Filename: debs/cydia_1.1.30_iphoneos-arm.deb
+Size: 1292624
+MD5sum: bb0cdc40d3abac5b874972ad8a8b70a1
+SHA1: a237e6a09c77e91e1c89d212e53a85e691b0b47a
+SHA256: f80a5228b2bacbd8e2640d96dc1b15a5cf0db681d2ed976cf53f1f5c64a9b184
+Section: Packaging
+Priority: required
+Description: graphical iPhone front-end for APT
+Tag: purpose::uikit, cydia::essential, role::enduser
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/cydia/
+Icon: file:///Applications/Cydia.app/Icon-60.png
+Name: Cydia Installer
+
+Package: dpkg
+Version: 1.18.10-12
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 1816
+Pre-Depends: tar (>= 1.23)
+Depends: bash, bzip2, coreutils-bin, diffutils, findutils, gzip, lzma, ncurses, tar
+Filename: debs/dpkg_1.18.10-12_iphoneos-arm.deb
+Size: 422468
+MD5sum: 0f28fd6e79ae7e12636589f9163c71ea
+SHA1: c788d9f2c3126c146bd66c4659560de78d1afbef
+SHA256: 87482e0c005a152f269f5c78a753ff514db5736b579cf870bd7dcba96f1463c2
+Section: Packaging
+Priority: required
+Homepage: http://wiki.debian.org/Teams/Dpkg
+Description: package maintainance tools from Debian
+Name: Debian Packager
+
+Package: kokeshi.untether9x
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: kok3shiDev
+Depends: firmware (>= 9.2), firmware (<= 9.3.4), cy+cpu.arm64
+Filename: debs/kokeshi.untether9x_1.0_iphoneos-arm.deb
+Size: 49404
+MD5sum: 2cc32605cd3fc4c706cc89d86143c665
+SHA1: ca49e08d47bf7454de7fe2d6206ada05b4c0ffb1
+SHA256: 96ac1d2418fbd9cae466b3b8d21ccdd1328c597d3138d05ebfff378788e6a37c
+Section: System
+Priority: important
+Description: arm64 untethered 9.2-9.3.4 jailbreak.
+Author: Clarity, kok3shidoll, staturnz
+Depiction: https://kok3shidoll.github.io/info/kokeshi.untether9x/
+Name: kokeshi 9.2-9.3.4 Untether
+
+Package: mobilesubstrate
+Version: 0.9.6301
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: com.saurik.substrate.safemode
+Conflicts: me.devbug.msreloadfix, com.r3pwn.startsubstrate, com.ragemasta.bootstrap
+Breaks: uikittools (<< 1.1.1), com.mywi4 (<= 5.03.2), com.phoenix.pandoracontrols (<= 1.1.0-1), com.intelliborn.intelliscreenx (<= 1.0.110), com.evad3rs.evasi0n7 (<< 0.2)
+Replaces: cycript (<= 0.9.594)
+Filename: debs/mobilesubstrate_0.9.6301.deb
+Size: 122342
+MD5sum: f2ca15c08aab522d8b7e842238aa83c6
+SHA1: 02ad8dce33adae8ba256dd5a4cac3bdf0246deec
+SHA256: 8dc91a066f088632409fecf65613831b8d6802e3b799f2dc87563c3ea2ed06ca
+Section: System
+Priority: optional
+Description: powerful code insertion platform
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/mobilesubstrate/
+Name: Cydia Substrate
+
+Package: org.thebigboss.libcolorpicker
+Version: 1.6.9
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 629
+Depends: firmware (>= 6.0), mobilesubstrate (>= 0.9.5000)
+Replaces: me.nepeta.libcolorpicker, ws.hbang.alderis
+Provides: me.nepeta.libcolorpicker, ws.hbang.alderis
+Filename: debs/org.thebigboss.libcolorpicker_1.6.9_iphoneos-arm.deb
+Size: 110620
+MD5sum: 76ac3303a769a551ba58a83855da19f5
+SHA1: c3aa95d2302ae22fac6344d131c58d6beecbe9b7
+SHA256: 5f3a37fd6b6e65da32fc8bcfedb74f13ba7ac5876b20968f04ea66fd68d12e6b
+Section: Development
+Priority: optional
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libcolorpickerDp
+Description: color picker library for developers
+Tag: purpose::library, role::developer, compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13, cydia::obsolete
+Author: PixelFire <pixelfiredev@helpful.io>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libcolorpickerDp
+Dev: pixelfiredev
+Name: libcolorpicker
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: pkg-config
+Version: 0.23-1p
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 276
+Depends: glib
+Filename: debs/pkg-config_0.23-1p_iphoneos-arm.deb
+Size: 80478
+MD5sum: a488ee4d8249f8a26b1bed4ef8ca26b3
+SHA1: 8cbc121dc87ef26df56a0204672270dc9ea1a98b
+SHA256: 54db92eccbe4ab9ceb669c907e28ffe3c9902594cc09fccda28efed370cfe9ed
+Section: Development
+Priority: optional
+Homepage: http://pkg-config.freedesktop.org/
+Description: allows tight coupling and sloppy PATHs
+Name: Package Config
+
+Package: powermanagement
+Version: 158.10-1
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 96
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: debs/powermanagement_158.10-1_iphoneos-arm.deb
+Size: 17864
+MD5sum: 61fe287ed084f34f0fe9a3aa7375b06d
+SHA1: 7668e4c3305dbd42896bee5340286b68f0f48c17
+SHA256: 8a815b9ea66ec43729dcca65f1d6e75c76ed3bd5491d9f5e8db5d7fa9fe17483
+Section: Administration
+Priority: important
+Description: command line power status monitoring/control
+Name: PowerManagement Tools
+
+Package: uk.invoxiplaygames.checkmatestore
+Version: 1.2
+Architecture: iphoneos-arm
+Maintainer: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
+Installed-Size: 164
+Depends: mobilesubstrate, firmware (>= 2.0)
+Filename: debs/checkmatestore-1.2.deb
+Size: 5200
+MD5sum: 5245fc6431aadd77110a226b8f0d9ee8
+SHA1: 1330e7a5c051c6dfbff558184de78accecb19032
+SHA256: 0863fee434c9a1aed89696655b4075aa3edde2b2ad3ee2a0e99a99428c17ffe3
+Section: Tweaks
+Description: Disable capability limits in the App Store.
+Author: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
+Depiction: http://cydia.invoxiplaygames.uk/dp/checkmatestore.php
+Name: Checkmate, Store!
+
+Package: uk.invoxiplaygames.cydiahttpatch
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: InvoxiPlayGames <webmaster@invoxiplaygames.uk
+Installed-Size: 100
+Depends: cydia, mobilesubstrate, firmware (<< 4.0)
+Filename: debs/cydiahttpatch-1.0.deb
+Size: 2842
+MD5sum: 2100205abecf06d1a7d72d2636e770c4
+SHA1: 26c2c398c93f847aa007a7778b6148e554e395c6
+SHA256: 2c6ff66a0498eea88f786a17b8ca79400ae311a2f5f80d97eaeed44d4fe9d9bf
+Section: Tweaks
+Description: Removes HTTPS from Cydia to use on iOS 3.
+Author: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
+Depiction: http://cydia.invoxiplaygames.uk/dp/cydiahttpatch.php
+Name: Cydia HTTPatch
+
+Package: uk.invoxiplaygames.tubefixer
+Version: 2.0-152+debug
+Architecture: iphoneos-arm
+Maintainer: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
+Installed-Size: 136
+Pre-Depends: dpkg (>= 1.13.25-5)
+Depends: mobilesubstrate, firmware (>= 2.0)
+Filename: debs/tubefixer-2.0-152-RC1.deb
+Size: 27972
+MD5sum: 3099d5610e8e73426a947fcf646fffcf
+SHA1: 8971219e0b2c4dee1632631a72507d387689deb6
+SHA256: 7912801feec7ec8062a39a0187976647da05cfe16026147a65ec2ecd58dd7c00
+Section: Tweaks
+Homepage: http://tubefixer.ovh/
+Description: Package to fix YouTube on iOS 3-5
+Author: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
+Depiction: http://cydia.invoxiplaygames.uk/dp/tubefixer.php
+Icon: file:///Library/Application%20Support/uk.invoxiplaygames.tubefixer/tubefixericon.png
+Name: TubeFixer for iOS
+
+Package: winterboard
+Version: 0.9.3919
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Pre-Depends: dpkg (>= 1.13.25-5)
+Depends: mobilesubstrate (>= 0.9.3225-1), killall, preferenceloader, findutils, net.howett.pincrush (>= 0.0.1-23) | pincrush
+Conflicts: com.modmyifone.winterboardicon, winterboardsettings, themesettings, com.iphonerepocenter.transparentdockfor3xtheme
+Breaks: jp.ashikase.folderenhancer (<< 1.6.0.2-1)
+Replaces: com.modmyifone.winterboardicon, winterboardsettings, themesettings, com.iphonerepocenter.transparentdockfor3xtheme
+Provides: theme-manager
+Filename: debs/winterboard_0.9.3919_iphoneos-arm.deb
+Size: 111104
+MD5sum: 903869bcc23c88eeb71615e833e626af
+SHA1: 569cc3f77a3ca6cd2046a84bc5c3a68fbb2f00ea
+SHA256: 8cd0ad873eacf4c209e4e89e2e1e0ab0ea963f49cd652ef814ed97d2fb157991
+Section: System
+Priority: optional
+Homepage: http://www.saurik.com/id/9
+Description: theme manager, used by most themes
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/winterboard/
+Name: WinterBoard
+
+Package: zephyr.178
+Version: 1.6.4-1
+Architecture: iphoneos-arm
+Maintainer: 178 Team <apt@178.com>
+Installed-Size: 112
+Pre-Depends: firmware (>= 5.0)
+Depends: mobilesubstrate, preferenceloader, applist, com.rpetrich.layersnapshotter
+Conflicts: com.dapetcu21.MultiCleaner (<= 2.9.4), com.xsellize.multicleaner, com.xsellize.zephyr
+Filename: debs/zephyr164-1.deb
+Size: 44894
+MD5sum: 0db728594f7b60be016451db3e1b6178
+SHA1: e322f685116af17b7245c2c69e083af3eddd05e4
+SHA256: 6ef481322b9d2aff158949fb605766a78ae1070a2f2861cb6d87982472121ced
+Section: [178 - 工具]
+Homepage: http://apt.178.com/html/2013/0225/iphone9155.shtml
+Description: Zephyr允许您单指或多指从dock上拉开启后台或关闭程序，程序中边缘左右滑动切换后台程序。
+Author: chpwn <support@chpwn.com>
+Depiction: http://apt.178.com/html/2013/0225/iphone9155.shtml
+Dev: chpwn
+Icon: file:///Library/PreferenceLoader/Preferences/Zephyr@2x.png
+Name: Zephyr
+Sponsor: w花
+
